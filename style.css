@@ -216,17 +216,18 @@ body {
   opacity: 0.4;
 }
 #cards-title #img-3D7 {
-  width: 16em;
+  width: 21em;
   position: absolute;
-  bottom: 2em;
-  left: 4em;
+  top: 25em;
+  left: 0.5em;
   opacity: 0.4;
+  transform: rotate(45deg);
 }
 #cards-title #img-3D8 {
-  width: 11em;
+  width: 19em;
   position: absolute;
-  bottom: 4em;
-  right: 16em;
+  bottom: 0em;
+  right: 7em;
   opacity: 0.4;
 }
 

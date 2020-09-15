@@ -280,19 +280,20 @@ body {
     }
 
     #img-3D7 {
-        width: 16em;
+        width: 21em;
         position: absolute;
-        bottom: 2em;
-        left: 4em;
-        opacity: .4;
+        top: 25em;
+        left: .5em;
+        opacity: 0.4;
+        transform: rotate(45deg);
     }
 
     #img-3D8 {
-        width: 11em;
+        width: 19em;
         position: absolute;
-        bottom: 4em;
-        right: 16em;
-        opacity: .4;
+        bottom: 0em;
+        right: 7em;
+        opacity: 0.4;
     }    
 }
 
