@@ -643,6 +643,57 @@ footer #foot-soc li a i:hover {
   body footer img {
     width: 40%;
   }
+  body #head-img {
+    height: 9em;
+  }
+  body #head-img h1 {
+    font-size: 2em;
+  }
+  body #profiles .ab-cont {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  body #profiles .ab-txt {
+    width: 100%;
+  }
+  body #profiles .ab-txt h1 {
+    font-size: 1.5em;
+  }
+  body #profiles .ab-txt .vl {
+    border-left: 2.5px solid #5CE1E6;
+    height: 2em;
+  }
+  body #profiles .ab-txt h5 {
+    font-size: 0.7rem;
+  }
+  body #profiles .ab-img {
+    width: 100%;
+    margin: 3em auto;
+  }
+  body #profiles .ab-img img {
+    width: 50%;
+  }
+  body .card .card-header h2 {
+    font-size: 1.2rem;
+  }
+  body .card .card-body p {
+    text-align: justify;
+    font-size: 0.65em;
+  }
+  body #big-div h1 {
+    font-family: "Pompiere", cursive;
+    font-size: 2.5em;
+  }
+  body #big-div .link-div {
+    width: 90%;
+  }
+  body #big-div .link-div ul {
+    width: 100%;
+  }
+  body #big-div .link-div ul li a {
+    font-size: 0.9em;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -852,5 +852,85 @@ footer {
                 width: 40%;
             }
         }
+
+        #head-img {
+            height: 9em;
+
+            h1 {
+                font-size: 2em;
+            }
+        }
+
+        #profiles {
+
+            .ab-cont {
+                display: block;
+                text-align: center;
+                width: 100%;
+            }
+    
+            .ab-txt {
+                width: 100%;
+
+                h1 {
+                    font-size: 1.5em;
+                }
+
+                .vl {
+                    border-left: 2.5px solid #5CE1E6;
+                    height: 2em;
+                }
+
+                h5 {
+                    font-size: .7rem;
+                }
+            }
+    
+            .ab-img {
+                width: 100%;
+                margin: 3em auto;
+
+                img {
+                    width: 50%;
+                }
+            }
+        }
+
+        .card {
+
+            .card-header h2 {
+                font-size: 1.2rem;
+            }
+
+            .card-body {
+                
+                p {
+                    text-align: justify;
+                    font-size: .65em;
+                }
+            }
+        }
+
+        #big-div {
+            
+            h1 {
+                font-family: "Pompiere", cursive;
+                font-size: 2.5em;
+            }
+
+            .link-div {
+                width: 90%;
+
+                ul {
+                    width: 100%;
+
+                    li a {
+                        font-size: .9em;
+                    }
+                }
+            }
+        }
+
+        
     }
 }
