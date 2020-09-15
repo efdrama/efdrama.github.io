@@ -694,6 +694,34 @@ footer #foot-soc li a i:hover {
   body #big-div .link-div ul li a {
     font-size: 0.9em;
   }
+  body #bigContDiv {
+    width: 100%;
+  }
+  body #bigContDiv #mid-div {
+    width: 80%;
+  }
+  body #bigContDiv #mid-div .contact i {
+    font-size: 1.2em;
+  }
+  body #bigContDiv #mid-div .contact h4 {
+    font-size: 1.2em;
+  }
+  body #location-div {
+    padding: 0;
+  }
+  body #location-div #frame-div {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+  }
+  body #location-div #frame-div div {
+    margin: 1em auto;
+    text-align: center;
+  }
+  body #location-div #frame-div div iframe {
+    width: 20em;
+    height: 18em;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
