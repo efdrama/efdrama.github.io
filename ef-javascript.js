@@ -5,13 +5,13 @@ $(document).ready(function (){
     function benefitShow1() {
         $("#ben1 .text-div div h1").css("display", "none");
         $("#ben1 .text-div div p").css("display", "block");
-        $("#ben1").css("background-color"," #ffffff");
+        $("#ben1").css("background-color"," #056676");
     }
 
     function benefitHide1() {
         $("#ben1 .text-div div h1").css("display", "block");
         $("#ben1 .text-div div p").css("display", "none");
-        $("#ben1").css("background-color"," #056676");
+        $("#ben1").css("background-color"," #171717");
     }
 
     $("#ben1").hover(benefitShow1,benefitHide1);
@@ -20,14 +20,14 @@ $(document).ready(function (){
     function benefitShow2() {
         $("#ben2 .text-div div h1").css("display", "none");
         $("#ben2 .text-div div p").css("display", "block");
-        $("#ben2").css("background-color"," #ffffff");
+        $("#ben2").css("background-color"," #056676");
 
     }
 
     function benefitHide2() {
         $("#ben2 .text-div div h1").css("display", "block");
         $("#ben2 .text-div div p").css("display", "none");
-        $("#ben2").css("background-color"," #056676");
+        $("#ben2").css("background-color"," #171717");
     }
 
     $("#ben2").hover(benefitShow2,benefitHide2);
@@ -35,14 +35,14 @@ $(document).ready(function (){
     function benefitShow3() {
         $("#ben3 .text-div div h1").css("display", "none");
         $("#ben3 .text-div div p").css("display", "block");
-        $("#ben3").css("background-color"," #ffffff");
+        $("#ben3").css("background-color"," #056676");
 
     }
 
     function benefitHide3() {
         $("#ben3 .text-div div h1").css("display", "block");
         $("#ben3 .text-div div p").css("display", "none");
-        $("#ben3").css("background-color"," #056676");
+        $("#ben3").css("background-color"," #171717");
     }
 
     $("#ben3").hover(benefitShow3,benefitHide3);
@@ -50,14 +50,14 @@ $(document).ready(function (){
     function benefitShow4() {
         $("#ben4 .text-div div h1").css("display", "none");
         $("#ben4 .text-div div p").css("display", "block");
-        $("#ben4").css("background-color"," #ffffff");
+        $("#ben4").css("background-color"," #056676");
 
     }
 
     function benefitHide4() { 
         $("#ben4 .text-div div h1").css("display", "block");
         $("#ben4 .text-div div p").css("display", "none");
-        $("#ben4").css("background-color"," #056676");
+        $("#ben4").css("background-color"," #171717");
     }
 
     $("#ben4").hover(benefitShow4,benefitHide4);
@@ -65,14 +65,14 @@ $(document).ready(function (){
     function benefitShow5() {
         $("#ben5 .text-div div h1").css("display", "none");
         $("#ben5 .text-div div p").css("display", "block");
-        $("#ben5").css("background-color"," #ffffff");
+        $("#ben5").css("background-color"," #056676");
 
     }
 
     function benefitHide5() {
         $("#ben5 .text-div div h1").css("display", "block");
         $("#ben5 .text-div div p").css("display", "none");
-        $("#ben5").css("background-color"," #056676");
+        $("#ben5").css("background-color"," #171717");
     }
 
     $("#ben5").hover(benefitShow5,benefitHide5);
@@ -80,14 +80,14 @@ $(document).ready(function (){
     function benefitShow6() {
         $("#ben6 .text-div div h1").css("display", "none");
         $("#ben6 .text-div div p").css("display", "block");
-        $("#ben6").css("background-color"," #ffffff");
+        $("#ben6").css("background-color"," #056676");
 
     }
 
     function benefitHide6() {
         $("#ben6 .text-div div h1").css("display", "block");
         $("#ben6 .text-div div p").css("display", "none");
-        $("#ben6").css("background-color"," #056676");
+        $("#ben6").css("background-color"," #171717");
     }
 
     $("#ben6").hover(benefitShow6,benefitHide6);

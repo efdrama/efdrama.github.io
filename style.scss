@@ -16,8 +16,8 @@ $blu: #056676;
 }
 
 $heading: 'Pompiere', cursive;
-$sub-head: 'Alaska', sans-serif;
-$body-font:'Cardo', serif;
+$sub-head: 'Alegreya Sans SC', sans-serif;;
+$body-font: 'Gudea', sans-serif;
 
 body {
     background-color: $bg-bl;
@@ -86,6 +86,7 @@ body {
     }
 
     #title-text {
+        width: 100%;
         // background-image: url("./images/bg-masks\ dark.png");
 
         h3 {
@@ -312,30 +313,33 @@ footer {
         font-size: 1.4em;
     }
 
+    img {
+        width: 20%;
+    }
+
     a {
-        color: $lilac;
+        color: $elec-blu;
         font-family: $sub-head;
 
         &:hover {
-            color: white;
+            color: $lilac;
         }
     }
 
     #foot-soc {
         display: flex;
         align-content: center;
-
-        a :nth-child(1) {
-            color: $elec-blu;
+        
+        li {
             margin-right: 1em;
-        }
+            
+            a {
+                color: $elec-blu;
+                font-size: 1.5em;
 
-        a {
-            color: $blu;
-            font-size: 1.5em;
-
-            i:hover {
-                color: $lilac;
+                i:hover {
+                    color: $lilac;
+                }
             }
         }
     }
@@ -548,7 +552,7 @@ footer {
 
     .ben {
         text-align: center;
-        background-color: $blu;
+        background-color: $bg-bl;
         height: 30vh;
 
         .text-div {
@@ -784,5 +788,69 @@ footer {
     #frame-div {
         display: flex;
         justify-content: space-evenly;
+    }
+}
+
+// ------------------------ Mobile
+
+@media only screen and (max-width: 1000px) {
+    
+    body {
+
+        .img-3D {
+            display: none;
+        }
+
+        .home-cont {
+            
+            #title-text h1 {
+                font-size: 4em;
+            }
+
+            #intro-text {
+                
+                h4 {
+                    font-size: 1.5em;
+                }
+
+                h5 {
+                    font-size: 1em;
+                }
+            }
+
+            .card-cont {
+                display: block;
+                width: 100%;
+    
+                .card {
+                    width: 70vw;
+                    margin: 2em auto;
+                }
+            }
+        }        
+
+        .light-cont {
+            padding: 2em 0;
+        }
+
+        #cards-title {
+            margin: 1em 0;
+        }
+
+        footer {
+            padding: 0 2em;
+
+            #foot-soc {
+                justify-content: center;
+
+                li {
+                    padding: 0 1em;
+                }
+            }
+
+            img {
+                width: 40%;
+            }
+        }
     }
 }

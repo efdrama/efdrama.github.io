@@ -41,7 +41,7 @@ body {
 }
 .navbar #navbarNav .navbar-nav a {
   color: white;
-  font-family: "Alaska", sans-serif;
+  font-family: "Alegreya Sans SC", sans-serif;
   font-size: 1em;
   padding: 0 1em;
 }
@@ -61,8 +61,11 @@ body {
   text-align: center;
   z-index: 1;
 }
+.home-cont #title-text {
+  width: 100%;
+}
 .home-cont #title-text h3 {
-  font-family: "Cardo", serif;
+  font-family: "Gudea", sans-serif;
   font-style: italic;
   color: white;
   font-size: 1.5em;
@@ -79,7 +82,7 @@ body {
   font-size: 4em;
 }
 .home-cont #intro-text h5 {
-  font-family: "Cardo", serif;
+  font-family: "Gudea", sans-serif;
   color: #171717;
 }
 .home-cont .card-cont {
@@ -123,7 +126,7 @@ body {
   -ms-transform: translate(-50%, -50%);
 }
 .home-cont .card-cont .card a {
-  font-family: "Cardo", serif;
+  font-family: "Gudea", sans-serif;
 }
 .home-cont .card-cont .card img {
   filter: grayscale(100);
@@ -133,7 +136,7 @@ body {
   height: auto;
 }
 .home-cont .card-cont .card .btn {
-  font-family: "Alaska", sans-serif;
+  font-family: "Alegreya Sans SC", sans-serif;
   letter-spacing: 0.1em;
   color: white;
   border: none;
@@ -239,30 +242,32 @@ footer {
   color: white;
 }
 footer h5 {
-  font-family: "Alaska", sans-serif;
+  font-family: "Alegreya Sans SC", sans-serif;
   margin-bottom: 1em;
   font-size: 1.4em;
 }
+footer img {
+  width: 20%;
+}
 footer a {
-  color: #684FC8;
-  font-family: "Alaska", sans-serif;
+  color: #5CE1E6;
+  font-family: "Alegreya Sans SC", sans-serif;
 }
 footer a:hover {
-  color: white;
+  color: #684FC8;
 }
 footer #foot-soc {
   display: flex;
   align-content: center;
 }
-footer #foot-soc a :nth-child(1) {
-  color: #5CE1E6;
+footer #foot-soc li {
   margin-right: 1em;
 }
-footer #foot-soc a {
-  color: #056676;
+footer #foot-soc li a {
+  color: #5CE1E6;
   font-size: 1.5em;
 }
-footer #foot-soc a i:hover {
+footer #foot-soc li a i:hover {
   color: #684FC8;
 }
 
@@ -302,7 +307,7 @@ footer #foot-soc a i:hover {
   padding: 3em;
 }
 #profiles .ab-txt {
-  font-family: "Cardo", serif;
+  font-family: "Gudea", sans-serif;
   width: 50%;
 }
 #profiles .ab-txt .vl {
@@ -311,7 +316,7 @@ footer #foot-soc a i:hover {
   margin-bottom: 0.5em;
 }
 #profiles .ab-txt h1 {
-  font-family: "Alaska", sans-serif;
+  font-family: "Alegreya Sans SC", sans-serif;
   color: white;
   text-align: left;
   margin: 0;
@@ -378,13 +383,13 @@ footer #foot-soc a i:hover {
   text-align: center;
 }
 #what h1 {
-  font-family: "Alaska", sans-serif;
+  font-family: "Alegreya Sans SC", sans-serif;
   color: #5CE1E6;
   font-size: 1.9em;
   margin-bottom: 1.5em;
 }
 #what p {
-  font-family: "Cardo", serif;
+  font-family: "Gudea", sans-serif;
   color: white;
   font-size: 1.3em;
 }
@@ -397,7 +402,7 @@ footer #foot-soc a i:hover {
   text-align: center;
   font-size: 1.9em;
   color: #5CE1E6;
-  font-family: "Alaska", sans-serif;
+  font-family: "Alegreya Sans SC", sans-serif;
   margin-bottom: 1.5em;
 }
 
@@ -410,7 +415,7 @@ footer #foot-soc a i:hover {
 }
 #benefits .ben {
   text-align: center;
-  background-color: #056676;
+  background-color: #171717;
   height: 30vh;
 }
 #benefits .ben .text-div {
@@ -434,7 +439,7 @@ footer #foot-soc a i:hover {
 }
 #benefits .ben .text-div div p {
   width: 80%;
-  font-family: "Alaska", sans-serif;
+  font-family: "Alegreya Sans SC", sans-serif;
   font-size: 1.6em;
   margin: 0 auto;
   display: none;
@@ -449,7 +454,7 @@ footer #foot-soc a i:hover {
   text-align: center;
   font-size: 1.9em;
   color: #5CE1E6;
-  font-family: "Alaska", sans-serif;
+  font-family: "Alegreya Sans SC", sans-serif;
   margin-bottom: 1.5em;
 }
 .bigClass-div h5 {
@@ -457,7 +462,7 @@ footer #foot-soc a i:hover {
   text-align: center;
   color: white;
   margin: 2em auto;
-  font-family: "Cardo", serif;
+  font-family: "Gudea", sans-serif;
   font-size: 1.3em;
 }
 .bigClass-div #yearly {
@@ -484,7 +489,7 @@ footer #foot-soc a i:hover {
 .bigClass-div #cov p {
   font-size: 1.7em;
   color: white;
-  font-family: "Alaska", sans-serif;
+  font-family: "Alegreya Sans SC", sans-serif;
   margin: 0;
 }
 .bigClass-div .img-div {
@@ -530,7 +535,7 @@ footer #foot-soc a i:hover {
   padding: 2em;
 }
 #big-div .link-div h2 {
-  font-family: "Alaska", sans-serif;
+  font-family: "Alegreya Sans SC", sans-serif;
   font-size: 1.5em;
   margin: 0 auto;
   margin-bottom: 2em;
@@ -550,7 +555,7 @@ footer #foot-soc a i:hover {
 #big-div .link-div ul li a {
   color: white;
   font-size: 1.3em;
-  font-family: "Cardo", serif;
+  font-family: "Gudea", sans-serif;
 }
 
 #bigContDiv {
@@ -577,7 +582,7 @@ footer #foot-soc a i:hover {
   font-size: 1.8em;
 }
 #bigContDiv #mid-div .contact h4 {
-  font-family: "Cardo", serif;
+  font-family: "Gudea", sans-serif;
   color: white;
   margin: 0;
 }
@@ -597,6 +602,47 @@ footer #foot-soc a i:hover {
 #location-div #frame-div {
   display: flex;
   justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 1000px) {
+  body .img-3D {
+    display: none;
+  }
+  body .home-cont #title-text h1 {
+    font-size: 4em;
+  }
+  body .home-cont #intro-text h4 {
+    font-size: 1.5em;
+  }
+  body .home-cont #intro-text h5 {
+    font-size: 1em;
+  }
+  body .home-cont .card-cont {
+    display: block;
+    width: 100%;
+  }
+  body .home-cont .card-cont .card {
+    width: 70vw;
+    margin: 2em auto;
+  }
+  body .light-cont {
+    padding: 2em 0;
+  }
+  body #cards-title {
+    margin: 1em 0;
+  }
+  body footer {
+    padding: 0 2em;
+  }
+  body footer #foot-soc {
+    justify-content: center;
+  }
+  body footer #foot-soc li {
+    padding: 0 1em;
+  }
+  body footer img {
+    width: 40%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
