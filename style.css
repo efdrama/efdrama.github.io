@@ -464,26 +464,42 @@ footer #foot-soc li a i:hover {
   font-family: "Gudea", sans-serif;
   font-size: 1.3em;
 }
-.bigClass-div #coll-buts {
+.bigClass-div .coll-buts {
   width: 100%;
   margin: 5em 0;
+  text-align: center;
 }
-.bigClass-div #coll-buts p {
+.bigClass-div .coll-buts p {
   width: 50%;
   margin: 0 auto;
 }
-.bigClass-div #coll-buts p a {
+.bigClass-div .coll-buts p a {
   border: none;
   outline: none;
   box-shadow: none;
+  text-decoration: underline;
 }
-.bigClass-div #coll-buts #kfcoll-but {
+.bigClass-div .coll-buts .kfcoll-but {
   background-color: #684FC8;
   color: #ffffff;
 }
-.bigClass-div #coll-buts .card-body {
+.bigClass-div .coll-buts .card-body {
   background-color: #171717;
   margin: 1em 0;
+}
+.bigClass-div .coll-buts #act-cbod h1 {
+  margin-bottom: 0.5em;
+}
+.bigClass-div .coll-buts #act-cbod h6 {
+  color: #ffffff;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-size: 1.3em;
+  margin-bottom: 3em;
+}
+.bigClass-div .coll-buts #act-cbod ul li {
+  color: #ffffff;
+  margin: 0.3em 0;
+  list-style-type: none;
 }
 .bigClass-div #yearly {
   width: 70%;
@@ -531,7 +547,6 @@ footer #foot-soc li a i:hover {
   background-color: #CF3838;
   width: 50%;
   margin: 2em auto;
-  margin-bottom: 14em;
   border-radius: 20px;
   padding: 2em;
   text-align: center;
