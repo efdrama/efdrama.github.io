@@ -926,180 +926,281 @@ footer {
 // ------------------------ Mobile
 
 @media only screen and (max-width: 1000px) {
-    
-    body {
 
-        .img-3D {
-            display: none;
+    .img-3D {
+        display: none;
+    }
+
+    .home-cont {
+        
+        #title-text h1 {
+            font-size: 4em;
         }
 
-        .home-cont {
+        #intro-text {
             
-            #title-text h1 {
-                font-size: 4em;
+            h4 {
+                font-size: 1.5em;
             }
 
-            #intro-text {
-                
-                h4 {
-                    font-size: 1.5em;
-                }
+            h5 {
+                font-size: 1em;
+            }
+        }
 
-                h5 {
-                    font-size: 1em;
-                }
+        .card-cont {
+            display: block;
+            width: 100%;
+
+            .card {
+                width: 70vw;
+                margin: 2em auto;
+            }
+        }
+    }        
+
+    .light-cont {
+        padding: 2em 0;
+    }
+
+    #cards-title {
+        margin: 1em 0;
+    }
+
+    footer {
+        padding: 0 2em;
+
+        #foot-soc {
+            justify-content: center;
+
+            li {
+                padding: 0 1em;
+            }
+        }
+
+        img {
+            width: 40%;
+        }
+    }
+
+    .head-img {
+        height: 9em;
+
+        h1 {
+            font-size: 2em;
+        }
+    }
+
+    #profiles {
+
+        .ab-cont {
+            display: block;
+            text-align: center;
+            width: 100%;
+        }
+
+        .ab-txt {
+            width: 100%;
+
+            h1 {
+                font-size: 1.5em;
             }
 
-            .card-cont {
-                display: block;
+            .vl {
+                border-left: 2.5px solid #5CE1E6;
+                height: 2em;
+            }
+
+            h5 {
+                font-size: .7rem;
+            }
+        }
+
+        .ab-img {
+            width: 100%;
+            margin: 3em auto;
+
+            img {
+                width: 50%;
+            }
+        }
+    }
+
+    .card {
+
+        .card-header h2 {
+            font-size: 1.2rem;
+        }
+
+        .card-body {
+            
+            p {
+                text-align: justify;
+                font-size: .65em;
+            }
+        }
+    }
+
+    #big-div {
+        
+        h1 {
+            font-family: "Pompiere", cursive;
+            font-size: 2.5em;
+        }
+
+        .link-div {
+            width: 90%;
+
+            ul {
                 width: 100%;
-    
-                .card {
-                    width: 70vw;
+
+                li a {
+                    font-size: .9em;
+                }
+            }
+        }
+    }
+
+    #what {
+        margin: 5em auto;
+
+        h1 {
+            font-size: 1.4em;
+        }
+
+        p {
+            font-size: .9em;
+        }
+    }
+
+    #bene-header {
+        width: 70%;
+
+        h1 {
+            font-size: 1.4em;
+        }
+    }
+
+    #benefits .ben .text-div div {
+
+        h1 {
+            font-size: 1.4em;
+            text-decoration: underline;
+        }
+
+        p {
+            font-size: .9em;
+        }
+    }
+   
+    .bigClass-div {
+        margin: 3em auto;
+
+        h1 {
+            font-size: 1.4em;
+            padding: 0 1rem;
+        }
+
+        h5 {
+            font-size: 1em;
+        }
+
+        .coll-buts {
+
+            h1 {
+                font-size: 1.2em;
+            }
+
+            p {
+                .kfcoll-but {
+                    width: 88%;
+                    display: block;
                     margin: 2em auto;
                 }
             }
-        }        
 
-        .light-cont {
-            padding: 2em 0;
-        }
-
-        #cards-title {
-            margin: 1em 0;
-        }
-
-        footer {
-            padding: 0 2em;
-
-            #foot-soc {
-                justify-content: center;
-
-                li {
-                    padding: 0 1em;
-                }
+            #act-cbod h6 {
+                margin-bottom: 1em;
             }
+        }     
 
-            img {
-                width: 40%;
-            }
+        .jnr-tbl .junior {
+            width: 80vw;
+            margin: 0 auto;
         }
 
-        .head-img {
-            height: 9em;
+        #yearly {
+            width: 80%;
+            margin: 2em auto;
 
             h1 {
-                font-size: 2em;
+                font-size: 1.3em;
             }
-        }
 
-        #profiles {
+            .event {
 
-            .ab-cont {
-                display: block;
-                text-align: center;
-                width: 100%;
-            }
-    
-            .ab-txt {
-                width: 100%;
-
-                h1 {
-                    font-size: 1.5em;
+                h2 {
+                    font-size: 1.1em;
                 }
 
-                .vl {
-                    border-left: 2.5px solid #5CE1E6;
-                    height: 2em;
-                }
-
-                h5 {
-                    font-size: .7rem;
-                }
-            }
-    
-            .ab-img {
-                width: 100%;
-                margin: 3em auto;
-
-                img {
-                    width: 50%;
-                }
-            }
-        }
-
-        .card {
-
-            .card-header h2 {
-                font-size: 1.2rem;
-            }
-
-            .card-body {
-                
                 p {
-                    text-align: justify;
-                    font-size: .65em;
+                    font-size: .9em;
                 }
             }
         }
 
-        #big-div {
-            
-            h1 {
-                font-family: "Pompiere", cursive;
-                font-size: 2.5em;
+        #cov {
+            width: 80%;
+            padding: 1.5em;
+
+            p {
+                font-size: 1em;
             }
+        }
+    }
 
-            .link-div {
-                width: 90%;
+    #bigContDiv {
+        width: 100%;
+    
+        #mid-div {
+            width: 80%;
 
-                ul {
-                    width: 100%;
+            .contact {
 
-                    li a {
-                        font-size: .9em;
-                    }
+                i {
+                    font-size: 1.2em;
+                }
+
+                h4 {
+                    font-size: 1.2em;
                 }
             }
         }
+    }
 
-        #bigContDiv {
-            width: 100%;
-        
-            #mid-div {
-                width: 80%;
+    #location-div {
+        padding: 0;
 
-                .contact {
+        #frame-div {
+            display: block;
+            width: 90%;
+            margin: 0 auto;
 
-                    i {
-                        font-size: 1.2em;
-                    }
+            div {
+                margin: 1em auto;
+                text-align: center;
 
-                    h4 {
-                        font-size: 1.2em;
-                    }
+                iframe {
+                    width: 20em;
+                    height: 18em;
                 }
             }
         }
+    }
 
-        #location-div {
-            padding: 0;
-
-            #frame-div {
-                display: block;
-                width: 90%;
-                margin: 0 auto;
-
-                div {
-                    margin: 1em auto;
-                    text-align: center;
-
-                    iframe {
-                        width: 20em;
-                        height: 18em;
-                    }
-                }
-            }
+    #gallery-title {
+        h1 {
+            font-size: 1.5em;
         }
     }
 }

@@ -715,122 +715,207 @@ footer #foot-soc li a i:hover {
   }
 }
 @media only screen and (max-width: 1000px) {
-  body .img-3D {
+  .img-3D {
     display: none;
   }
-  body .home-cont #title-text h1 {
+
+  .home-cont #title-text h1 {
     font-size: 4em;
   }
-  body .home-cont #intro-text h4 {
+  .home-cont #intro-text h4 {
     font-size: 1.5em;
   }
-  body .home-cont #intro-text h5 {
+  .home-cont #intro-text h5 {
     font-size: 1em;
   }
-  body .home-cont .card-cont {
+  .home-cont .card-cont {
     display: block;
     width: 100%;
   }
-  body .home-cont .card-cont .card {
+  .home-cont .card-cont .card {
     width: 70vw;
     margin: 2em auto;
   }
-  body .light-cont {
+
+  .light-cont {
     padding: 2em 0;
   }
-  body #cards-title {
+
+  #cards-title {
     margin: 1em 0;
   }
-  body footer {
+
+  footer {
     padding: 0 2em;
   }
-  body footer #foot-soc {
+  footer #foot-soc {
     justify-content: center;
   }
-  body footer #foot-soc li {
+  footer #foot-soc li {
     padding: 0 1em;
   }
-  body footer img {
+  footer img {
     width: 40%;
   }
-  body .head-img {
+
+  .head-img {
     height: 9em;
   }
-  body .head-img h1 {
+  .head-img h1 {
     font-size: 2em;
   }
-  body #profiles .ab-cont {
+
+  #profiles .ab-cont {
     display: block;
     text-align: center;
     width: 100%;
   }
-  body #profiles .ab-txt {
+  #profiles .ab-txt {
     width: 100%;
   }
-  body #profiles .ab-txt h1 {
+  #profiles .ab-txt h1 {
     font-size: 1.5em;
   }
-  body #profiles .ab-txt .vl {
+  #profiles .ab-txt .vl {
     border-left: 2.5px solid #5CE1E6;
     height: 2em;
   }
-  body #profiles .ab-txt h5 {
+  #profiles .ab-txt h5 {
     font-size: 0.7rem;
   }
-  body #profiles .ab-img {
+  #profiles .ab-img {
     width: 100%;
     margin: 3em auto;
   }
-  body #profiles .ab-img img {
+  #profiles .ab-img img {
     width: 50%;
   }
-  body .card .card-header h2 {
+
+  .card .card-header h2 {
     font-size: 1.2rem;
   }
-  body .card .card-body p {
+  .card .card-body p {
     text-align: justify;
     font-size: 0.65em;
   }
-  body #big-div h1 {
+
+  #big-div h1 {
     font-family: "Pompiere", cursive;
     font-size: 2.5em;
   }
-  body #big-div .link-div {
+  #big-div .link-div {
     width: 90%;
   }
-  body #big-div .link-div ul {
+  #big-div .link-div ul {
     width: 100%;
   }
-  body #big-div .link-div ul li a {
+  #big-div .link-div ul li a {
     font-size: 0.9em;
   }
-  body #bigContDiv {
+
+  #what {
+    margin: 5em auto;
+  }
+  #what h1 {
+    font-size: 1.4em;
+  }
+  #what p {
+    font-size: 0.9em;
+  }
+
+  #bene-header {
+    width: 70%;
+  }
+  #bene-header h1 {
+    font-size: 1.4em;
+  }
+
+  #benefits .ben .text-div div h1 {
+    font-size: 1.4em;
+    text-decoration: underline;
+  }
+  #benefits .ben .text-div div p {
+    font-size: 0.9em;
+  }
+
+  .bigClass-div {
+    margin: 3em auto;
+  }
+  .bigClass-div h1 {
+    font-size: 1.4em;
+    padding: 0 1rem;
+  }
+  .bigClass-div h5 {
+    font-size: 1em;
+  }
+  .bigClass-div .coll-buts h1 {
+    font-size: 1.2em;
+  }
+  .bigClass-div .coll-buts p .kfcoll-but {
+    width: 88%;
+    display: block;
+    margin: 2em auto;
+  }
+  .bigClass-div .coll-buts #act-cbod h6 {
+    margin-bottom: 1em;
+  }
+  .bigClass-div .jnr-tbl .junior {
+    width: 80vw;
+    margin: 0 auto;
+  }
+  .bigClass-div #yearly {
+    width: 80%;
+    margin: 2em auto;
+  }
+  .bigClass-div #yearly h1 {
+    font-size: 1.3em;
+  }
+  .bigClass-div #yearly .event h2 {
+    font-size: 1.1em;
+  }
+  .bigClass-div #yearly .event p {
+    font-size: 0.9em;
+  }
+  .bigClass-div #cov {
+    width: 80%;
+    padding: 1.5em;
+  }
+  .bigClass-div #cov p {
+    font-size: 1em;
+  }
+
+  #bigContDiv {
     width: 100%;
   }
-  body #bigContDiv #mid-div {
+  #bigContDiv #mid-div {
     width: 80%;
   }
-  body #bigContDiv #mid-div .contact i {
+  #bigContDiv #mid-div .contact i {
     font-size: 1.2em;
   }
-  body #bigContDiv #mid-div .contact h4 {
+  #bigContDiv #mid-div .contact h4 {
     font-size: 1.2em;
   }
-  body #location-div {
+
+  #location-div {
     padding: 0;
   }
-  body #location-div #frame-div {
+  #location-div #frame-div {
     display: block;
     width: 90%;
     margin: 0 auto;
   }
-  body #location-div #frame-div div {
+  #location-div #frame-div div {
     margin: 1em auto;
     text-align: center;
   }
-  body #location-div #frame-div div iframe {
+  #location-div #frame-div div iframe {
     width: 20em;
     height: 18em;
+  }
+
+  #gallery-title h1 {
+    font-size: 1.5em;
   }
 }
 
