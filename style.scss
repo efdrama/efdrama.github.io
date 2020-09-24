@@ -228,6 +228,14 @@ body {
         right: 2em;
         opacity: .4;
     }
+
+    #img-3D3 {
+        width: 20em;
+        position: absolute;
+        top: 12em;
+        right: 37em;
+        opacity: .4;
+    }
 }
 
 .light-cont {
@@ -235,12 +243,21 @@ body {
     padding: 8em 0;
     position: relative;
 
-    #img-3D3 {
+    #img-3D4 {
         z-index: 0;
         width: 19em;
         position: absolute;
         top: 25em;
-        right: 35em;
+        left: 24em;
+        opacity: 0.2;
+    }
+
+    #img-3D8 {
+        z-index: 0;
+        width: 30em;
+        position: absolute;
+        top: 9em;
+        right: 15em;
         opacity: 0.2;
     }
 }
@@ -250,21 +267,7 @@ body {
     background-color: $bg-bl;
     height: 30vh;
     width: 100%;
-    position: relative;
-
-    #img-3D4 {
-        width: 15em;
-        position: absolute;
-        top: 30em;
-        right: 15em
-    }
-
-    #img-3D5 {
-        width: 7em;
-        position: absolute;
-        top: 25em;
-        left: 13em;
-    }
+    position: relative;    
 }
 
 #cards-title {
@@ -273,30 +276,46 @@ body {
     margin: 5em 0;
     margin-top: 10em;
 
-    #img-3D6 {
+    #img-3D5 {
         width: 30em;
         position: absolute;
-        bottom: 0.5em;
-        right: 40%;
+        bottom: 9.5em;
+        right: 55%;
         opacity: .4;
     }
 
-    #img-3D7 {
-        width: 21em;
+    #img-3D6 {
+        width: 27em;
         position: absolute;
-        top: 25em;
-        left: .5em;
+        top: 5em;
+        right: 17em;
         opacity: 0.4;
         transform: rotate(45deg);
     }
 
-    #img-3D8 {
-        width: 19em;
+    #img-3D7 {
+        width: 15em;
         position: absolute;
         bottom: 0em;
         right: 7em;
         opacity: 0.4;
-    }    
+    }
+    
+    #img-3D9 {
+        width: 21em;
+        position: absolute;
+        bottom: 0em;
+        left: 5em;
+        opacity: 0.4;
+    } 
+
+    #img-3D10 {
+        width: 19em;
+        position: absolute;
+        bottom: 0em;
+        left: 46em;
+        opacity: 0.4;
+    } 
 }
 
 // ------------------------- Footer
