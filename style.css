@@ -77,9 +77,10 @@ body {
   font-size: 9em;
 }
 .home-cont #intro-text h4 {
-  font-family: "Pompiere", cursive;
+  font-family: "Alegreya Sans SC", sans-serif;
   color: #684FC8;
   font-size: 4em;
+  margin-bottom: 1.5em;
 }
 .home-cont #intro-text h5 {
   font-family: "Gudea", sans-serif;
