@@ -68,35 +68,52 @@ body {
   font-family: "Gudea", sans-serif;
   font-style: italic;
   color: #ffffff;
-  font-size: 1.5em;
+  font-size: calc(1.275rem + 0.3vw);
+}
+@media (min-width: 1200px) {
+  .home-cont #title-text h3 {
+    font-size: 1.5rem;
+  }
 }
 .home-cont #title-text h1 {
   font-family: "Pompiere", cursive;
   letter-spacing: 0.1em;
   color: #5CE1E6;
-  font-size: 9em;
+  font-size: calc(2.025rem + 9.3vw);
+}
+@media (min-width: 1200px) {
+  .home-cont #title-text h1 {
+    font-size: 9rem;
+  }
 }
 .home-cont #intro-text h4 {
   font-family: "Alegreya Sans SC", sans-serif;
   color: #684FC8;
-  font-size: 4em;
   margin-bottom: 1.5em;
+  font-size: calc(1.375rem + 1.5vw);
+}
+@media (min-width: 1200px) {
+  .home-cont #intro-text h4 {
+    font-size: 2.5rem;
+  }
 }
 .home-cont #intro-text h5 {
   font-family: "Gudea", sans-serif;
   color: #171717;
+  font-size: calc(1.275rem + 0.3vw);
+}
+@media (min-width: 1200px) {
+  .home-cont #intro-text h5 {
+    font-size: 1.5rem;
+  }
 }
 .home-cont .card-cont {
   width: 95%;
   align-content: center;
   justify-content: space-evenly;
-  margin: 0 auto;
 }
 .home-cont .card-cont .card {
-  background-color: #171717;
   width: 25vw;
-  color: #ffffff;
-  border: none;
   position: relative;
 }
 .home-cont .card-cont .card .overlay {
@@ -130,17 +147,12 @@ body {
 .home-cont .card-cont .card img {
   filter: grayscale(100);
   width: 100%;
-  margin: 0 auto;
-  display: block;
   height: auto;
 }
 .home-cont .card-cont .card .btn {
   font-family: "Alegreya Sans SC", sans-serif;
   letter-spacing: 0.1em;
-  color: #ffffff;
-  border: none;
   outline: none;
-  box-shadow: none;
 }
 .home-cont .card-cont .card .btn:hover {
   background-color: #5CE1E6;
@@ -253,9 +265,7 @@ body {
 footer {
   width: 100%;
   padding: 0 8em;
-  margin: 0 auto;
   border-top: 10px solid #684FC8;
-  color: #ffffff;
 }
 footer h5 {
   font-family: "Alegreya Sans SC", sans-serif;
@@ -273,7 +283,6 @@ footer a:hover {
   color: #684FC8;
 }
 footer #foot-soc {
-  display: flex;
   align-content: center;
 }
 footer #foot-soc li {
@@ -732,33 +741,8 @@ footer #foot-soc li a i:hover {
   }
 }
 @media only screen and (max-width: 1000px) {
-  .img-3D {
-    display: none;
-  }
-
-  .home-cont #title-text h1 {
-    font-size: 4em;
-  }
-  .home-cont #intro-text h4 {
-    font-size: 1.5em;
-  }
-  .home-cont #intro-text h5 {
-    font-size: 1em;
-  }
-  .home-cont .card-cont {
-    width: 100%;
-  }
   .home-cont .card-cont .card {
     width: 70vw;
-    margin: 2em auto;
-  }
-
-  .light-cont {
-    padding: 2em 0;
-  }
-
-  #cards-title {
-    margin: 1em 0;
   }
 
   footer {
@@ -766,9 +750,6 @@ footer #foot-soc li a i:hover {
   }
   footer #foot-soc {
     justify-content: center;
-  }
-  footer #foot-soc li {
-    padding: 0 1em;
   }
   footer img {
     width: 40%;

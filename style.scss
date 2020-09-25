@@ -16,6 +16,8 @@ $blu: #056676;
      url(Alaska-Regular.ttf) format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
 
+@import "../EF/rfs/scss.scss";
+
 $heading: 'Pompiere', cursive;
 $sub-head: 'Alegreya Sans SC', sans-serif;;
 $body-font: 'Gudea', sans-serif;
@@ -88,51 +90,45 @@ body {
 
     #title-text {
         width: 100%;
-        // background-image: url("./images/bg-masks\ dark.png");
 
         h3 {
             font-family: $body-font;
             font-style: italic;
             color: $whte;
-            font-size: 1.5em;
+            @include font-size(1.5rem);
         }
     
         h1 {
             font-family: $heading;
             letter-spacing: .1em;
             color: $elec-blu;
-            font-size: 9em;
+            @include font-size(9rem);
         }
     }
 
     #intro-text {
-        // background-image: url("./images/bg-masks.png");
 
         h4 {
             font-family: $sub-head;
             color: $lilac;
-            font-size: 4em;
             margin-bottom: 1.5em;
+            @include font-size(2.5rem);
         }
 
         h5 {
             font-family: $body-font;
             color: $bg-bl;
+            @include font-size(1.5rem);
         }
     }
 
     .card-cont {
         width: 95%;
-        // display: flex;
         align-content: center;
         justify-content: space-evenly;
-        margin: 0 auto;
 
         .card {
-            background-color: $bg-bl;
             width: 25vw;
-            color: $whte;
-            border: none;
             position: relative;
 
             .overlay {
@@ -164,16 +160,6 @@ body {
                 -ms-transform: translate(-50%, -50%);
             }
 
-            // .card-bod {
-            //     padding: 1em 0;
-            //     background-color: $bg-bl;
-            //     text-align: center;
-
-            //     a {
-            //         margin: 0 auto;
-            //     }
-            // }
-
             a {
                 font-family: $body-font;
             }
@@ -181,20 +167,13 @@ body {
             img {
                 filter: grayscale(100);
                 width: 100%;
-                margin: 0 auto;
-                display: block;
                 height: auto;
             }
 
             .btn {
                 font-family: $sub-head;
                 letter-spacing: .1em;
-                color: $whte;
-                // background-color: $blu;
-                // border-radius: 14px;
-                border: none;
                 outline: none;
-                box-shadow: none;
 
                 &:hover {
                     background-color: $elec-blu;
@@ -324,9 +303,7 @@ body {
 footer {
     width: 100%;
     padding: 0 8em;
-    margin: 0 auto;
     border-top: 10px solid $lilac;
-    color: $whte;
 
     h5 {
         font-family: $sub-head;
@@ -348,7 +325,6 @@ footer {
     }
 
     #foot-soc {
-        display: flex;
         align-content: center;
         
         li {
@@ -948,43 +924,17 @@ footer {
 @media only screen and (max-width: 1000px) {
 
     .img-3D {
-        display: none;
     }
 
     .home-cont {
-        
-        #title-text h1 {
-            font-size: 4em;
-        }
-
-        #intro-text {
-            
-            h4 {
-                font-size: 1.5em;
-            }
-
-            h5 {
-                font-size: 1em;
-            }
-        }
 
         .card-cont {
-            // display: block;
-            width: 100%;
+            // width: 100%;
 
             .card {
                 width: 70vw;
-                margin: 2em auto;
             }
         }
-    }        
-
-    .light-cont {
-        padding: 2em 0;
-    }
-
-    #cards-title {
-        margin: 1em 0;
     }
 
     footer {
@@ -992,10 +942,6 @@ footer {
 
         #foot-soc {
             justify-content: center;
-
-            li {
-                padding: 0 1em;
-            }
         }
 
         img {
