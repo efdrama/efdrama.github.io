@@ -88,7 +88,6 @@ body {
 }
 .home-cont .card-cont {
   width: 95%;
-  display: flex;
   align-content: center;
   justify-content: space-evenly;
   margin: 0 auto;
@@ -747,7 +746,6 @@ footer #foot-soc li a i:hover {
     font-size: 1em;
   }
   .home-cont .card-cont {
-    display: block;
     width: 100%;
   }
   .home-cont .card-cont .card {
