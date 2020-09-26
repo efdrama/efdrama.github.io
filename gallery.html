@@ -21,7 +21,7 @@
 
             <!-- company logo -->
             <a class="navbar-brand" href="#">
-                <img src="./images/Logo.png" width="100" height="100" alt="" loading="lazy">
+                <img src="./images/Logo.png" width="150" height="150" alt="" loading="lazy">
             </a>
 
             <!-- menu bars -->
@@ -36,6 +36,7 @@
                     <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
                     <a class="nav-link" href="./about.html">About</a>
                     <a class="nav-link" href="classes.html">Classes</a>
+                    <a class="nav-link" href="gallery.html">Gallery</a>
                     <a class="nav-link" href="resources.html">Resources</a>
                     <a class="nav-link" href="contact.html">Contact</a>
                 </div>
@@ -49,56 +50,54 @@
         <h1>We take pride in our students' achievements and the fun and memories they make at our school during classtime. Here is a taste of all the smiles we've seen over the years. More photos and updates over on our Facebook community!</h1>
     </div>
 
-
-    <div class="row">
-        <div class="column">
-            <img src="images/boys.jpg">
-            <img src="images/4th class.jpg">
-            <img src="images/efschoolimg.jpg">
-            <img src="images/feile_girls.jpg">
-        </div>
-        <div class="column">
-            <img src="images/group.jpg">
-            <img src="images/material.jpg">
-            <img src="images/facepaint.jpg">
-            <img src="images/feile_church.jpg">
-        </div>
-        <div class="column">
-            <img src="images/feile_girls2.jpg">
-            <img src="images/presenting_medal.jpg">
-            <img src="images/boys_group.jpg">
-            <img src="images/girls_trophy.jpg">
-        </div>
-        <div class="column">
-            <img src="images/trophies_2.jpg">
-            <img src="images/medal_girls.jpg">
-            <img src="images/girls_group.jpg">
-            <img src="images/stage_boy.jpg">
+    <div id="gallery-area">
+        <div class="row">
+            <div class="column">
+                <img data-toggle="modal" data-target="#exampleModal" class="gallery-pic" src="images/boys.jpg" alt="Feile Luimnigh winners!">
+                <img data-toggle="modal" data-target="#exampleModal" class="gallery-pic" src="images/4th class.jpg" alt="4th Class @ Cratloe Speechfest 2019!">
+                <img data-toggle="modal" data-target="#exampleModal" class="gallery-pic" src="images/efschoolimg.jpg" alt="Senior class photo!">
+                <img data-toggle="modal" data-target="#exampleModal" class="gallery-pic" src="images/feile_girls.jpg" alt="Feile Luimnigh winners!">
+            </div>
+            <div class="column">
+                <img data-toggle="modal" data-target="#exampleModal" class="gallery-pic" src="images/group.jpg" alt="Senior class photo!">
+                <img data-toggle="modal" data-target="#exampleModal" class="gallery-pic" src="images/material.jpg" alt="Class projects!">
+                <img data-toggle="modal" data-target="#exampleModal" class="gallery-pic" src="images/facepaint.jpg" alt="Annual Showcase showdown!">
+                <img data-toggle="modal" data-target="#exampleModal" class="gallery-pic" src="images/feile_church.jpg" alt="Feile Luimnigh winners!">
+            </div>
+            <div class="column">
+                <!-- <img src="images/feile_girls2.jpg"> -->
+                <img data-toggle="modal" data-target="#exampleModal" class="gallery-pic" src="images/presenting_medal.jpg" alt="Annual Showcase Awards Presentation">
+                <img data-toggle="modal" data-target="#exampleModal" class="gallery-pic" src="images/boys_group.jpg" alt="The Boys!">
+                <img data-toggle="modal" data-target="#exampleModal" class="gallery-pic" src="images/girls_trophy.jpg"alt="Senior Feile Luimnigh winners!">
+            </div>
+            <div class="column">
+                <img data-toggle="modal" data-target="#exampleModal" class="gallery-pic" src="images/trophies_2.jpg" alt="Lots of wins at Feile Luimnigh">
+                <img data-toggle="modal" data-target="#exampleModal" class="gallery-pic" src="images/medal_girls.jpg" alt="Annual Showcase Awards Presentation">
+                <img data-toggle="modal" data-target="#exampleModal" class="gallery-pic" src="images/girls_group.jpg" alt="Feile Luimnigh winners!">
+                <img data-toggle="modal" data-target="#exampleModal" class="gallery-pic" src="images/stage_boy.jpg" alt="Annual Showcase Individual Performances!">
+            </div>
         </div>
     </div>
 
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <img src="images/stage_boy.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <footer class="page-footer font-small blue pt-4">
+    <!------------------------- Footer -->
+    <footer class="page-footer text-white pt-4 pd-0 px-5">
 
         <!-- Footer Links -->
         <div class="container-fluid text-center text-md-left">
@@ -147,11 +146,11 @@
 
                     <ul class="list-unstyled" id="foot-soc">
                         <li>
-                            <a href="https://www.facebook.com/eileenfitzgeraldschoolofspeechanddrama"><i
+                            <a target="_blank" href="https://www.facebook.com/eileenfitzgeraldschoolofspeechanddrama"><i
                                     class="fab fa-facebook-f"></i></a>
                         </li>
                         <li>
-                            <a href="https://www.instagram.com/eileenfitzgerald_drama/"><i
+                            <a target="_blank" href="https://www.instagram.com/eileenfitzgerald_drama/"><i
                                     class="fab fa-instagram"></i></a>
                         </li>
                     </ul>
@@ -166,13 +165,14 @@
         <!-- Footer Links -->
 
         <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">© 2020 Copyright
+        <div class="footer-copyright text-center pb-1">© 2020 Copyright
             <a href="http://www.kailafitz.com/"> kailafitz</a>
         </div>
         <!-- Copyright -->
 
     </footer>
     <!-- Footer -->
+
 
 
     <!-- Javascript links -->

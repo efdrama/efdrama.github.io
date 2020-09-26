@@ -92,6 +92,13 @@ $(document).ready(function (){
 
     $("#ben6").hover(benefitShow6,benefitHide6);
 
+    $('.gallery-pic').click(function(){
+        let src = $(this).attr('src');
+        let title = $(this).attr('alt');
+        $('.modal-body img').attr('src', src);
+        $('.modal-title').text(title);
+    });
+
     
 
 });

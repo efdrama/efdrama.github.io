@@ -21,7 +21,7 @@
 
             <!-- company logo -->
             <a class="navbar-brand" href="#">
-                <img src="./images/Logo.png" width="100" height="100" alt="" loading="lazy">
+                <img src="./images/Logo.png" width="150" height="150" alt="" loading="lazy">
             </a>
 
             <!-- menu bars -->
@@ -36,6 +36,7 @@
                     <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
                     <a class="nav-link" href="./about.html">About</a>
                     <a class="nav-link" href="classes.html">Classes</a>
+                    <a class="nav-link" href="gallery.html">Gallery</a>
                     <a class="nav-link" href="resources.html">Resources</a>
                     <a class="nav-link" href="contact.html">Contact</a>
                 </div>
@@ -136,7 +137,7 @@
 
         <div class="coll-buts">
             <h1>Our class schedules are based on our locations and age groups.</h1>
-            <p>
+            <p class="coll-buts-buttons">
                 <a class="btn kfcoll-but" data-toggle="collapse" href="#bnsschedule" role="button" aria-expanded="false"
                     aria-controls="collapseExample">
                     Barefield National School Schedule
@@ -150,92 +151,106 @@
                     St. Anthony's Hall Schedule
                 </a>
             </p>
-            <div class="collapse" id="bnsschedule">
-                <div class="card card-body">
-                    <div class="jnr-tbl">
-                        <h1>Barefield National School Schedule</h1>
-                        <table class="junior">
-                            <thead>
-                                <th>Age Group</th>
-                                <th>Day & Time</th>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>2 - 4 yrs</td>
-                                    <td>Tuesday<br>2pm</td>
-                                </tr>
-                                <tr>
-                                    <td>6 - 7 yrs</td>
-                                    <td>Monday<br>3pm</td>
-                                </tr>
-                                <tr>
-                                    <td>7 - 8 yrs</td>
-                                    <td>Tuesday<br>3pm</td>
-                                </tr>
-                                <tr>
-                                    <td>8 - 10 yrs</td>
-                                    <td>Tuesday<br>4pm</td>
-                                </tr>
-                                <tr>
-                                    <td>10 - 12 yrs</td>
-                                    <td>Tuesday<br>5pm</td>
-                                </tr>
-                            </tbody>
-                        </table>
+            <div id="coll-buts-info">
+                <a class="btn kfcoll-but mobile-buts" data-toggle="collapse" href="#bnsschedule" role="button" aria-expanded="false"
+                    aria-controls="collapseExample">
+                    Barefield National School Schedule
+                </a>
+                <div class="collapse" id="bnsschedule">
+                    <div class="card card-body">
+                        <div class="jnr-tbl">
+                            <h1>Barefield National School Schedule</h1>
+                            <table class="junior">
+                                <thead>
+                                    <th>Age Group</th>
+                                    <th>Day & Time</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>2 - 4 yrs</td>
+                                        <td>Tuesday<br>2pm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6 - 7 yrs</td>
+                                        <td>Monday<br>3pm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7 - 8 yrs</td>
+                                        <td>Tuesday<br>3pm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8 - 10 yrs</td>
+                                        <td>Tuesday<br>4pm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10 - 12 yrs</td>
+                                        <td>Tuesday<br>5pm</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="collapse" id="cnsschedule">
-                <div class="card card-body">
-                    <div class="jnr-tbl">
-                        <h1>Clarecastle National School Schedule</h1>
-                        <table class="junior">
-                            <thead>
-                                <th>Age Group</th>
-                                <th>Day & Time</th>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Junior Age Mix</td>
-                                    <td>Thursday<br>2:40pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Junior Age Mix</td>
-                                    <td>Thursday<br>3:40pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Junior Age Mix</td>
-                                    <td>Thursday<br>4:40pm</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                <a class="btn kfcoll-but mobile-buts" data-toggle="collapse" href="#cnsschedule" role="button" aria-expanded="false"
+                    aria-controls="collapseExample">
+                    Clarecastle National School Schedule
+                </a>
+                <div class="collapse" id="cnsschedule">
+                    <div class="card card-body">
+                        <div class="jnr-tbl">
+                            <h1>Clarecastle National School Schedule</h1>
+                            <table class="junior">
+                                <thead>
+                                    <th>Age Group</th>
+                                    <th>Day & Time</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Junior Age Mix</td>
+                                        <td>Thursday<br>2:40pm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Junior Age Mix</td>
+                                        <td>Thursday<br>3:40pm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Junior Age Mix</td>
+                                        <td>Thursday<br>4:40pm</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="collapse" id="sahschedule">
-                <div class="card card-body">
-                    <div class="jnr-tbl">
-                        <h1>St. Anthony's Hall Schedule</h1>
-                        <table class="junior">
-                            <thead>
-                                <th>Age Group</th>
-                                <th>Day & Time</th>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Senior Age Mix</td>
-                                    <td>Monday<br>5:10pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Junior Age Mix</td>
-                                    <td>Monday<br>6:10pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Senior Age Mix</td>
-                                    <td>Monday<br>7:10pm</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                <a class="btn kfcoll-but mobile-buts" data-toggle="collapse" href="#sahschedule" role="button" aria-expanded="false"
+                    aria-controls="collapseExample">
+                    St. Anthony's Hall Schedule
+                </a>
+                <div class="collapse" id="sahschedule">
+                    <div class="card card-body">
+                        <div class="jnr-tbl">
+                            <h1>St. Anthony's Hall Schedule</h1>
+                            <table class="junior">
+                                <thead>
+                                    <th>Age Group</th>
+                                    <th>Day & Time</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Senior Age Mix</td>
+                                        <td>Monday<br>5:10pm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Junior Age Mix</td>
+                                        <td>Monday<br>6:10pm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Senior Age Mix</td>
+                                        <td>Monday<br>7:10pm</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -287,64 +302,78 @@
                     Senior Activities
                 </a>
             </p>
-            <div class="collapse" id="inf_acts">
-                <div class="card card-body" id="act-cbod">
+            <div id="coll-buts-info">
+                <a class="btn kfcoll-but mobile-buts" data-toggle="collapse" href="#inf_acts" role="button" aria-expanded="false"
+                    aria-controls="collapseExample">
+                    Junior & Senior Infants Activities
+                </a>
+                <div class="collapse" id="inf_acts">
+                    <div class="card card-body" id="act-cbod">
 
-                    <h1>Junior & Senior Infant Activities</h1>
+                        <h1>Junior & Senior Infant Activities</h1>
 
-                    <ul>
-                        <li>Fostering a love and enjoyment in the spoken word</li>
-                        <li>Developing the ability to express themselves clearly while improving memorisation and recall
-                        </li>
-                        <li>Building self-confidence through theatre games</li>
-                        <li>Developing skills in voice and diction</li>
-                        <li>Storytelling through acting and puppetry</li>
-                        <li>Learning to work as part of a group</li>
-                        <li>Show & Tell, an introduction to speaking before a group</li>
-                    </ul>
+                        <ul>
+                            <li>Fostering a love and enjoyment in the spoken word</li>
+                            <li>Developing the ability to express themselves clearly while improving memorisation and recall
+                            </li>
+                            <li>Building self-confidence through theatre games</li>
+                            <li>Developing skills in voice and diction</li>
+                            <li>Storytelling through acting and puppetry</li>
+                            <li>Learning to work as part of a group</li>
+                            <li>Show & Tell, an introduction to speaking before a group</li>
+                        </ul>
 
+                    </div>
                 </div>
-            </div>
-            <div class="collapse" id="jnr_acts">
-                <div class="card card-body" id="act-cbod">
+                <a class="btn kfcoll-but mobile-buts" data-toggle="collapse" href="#jnr_acts" role="button" aria-expanded="false"
+                    aria-controls="collapseExample">
+                    Junior Activities
+                </a>
+                <div class="collapse" id="jnr_acts">
+                    <div class="card card-body" id="act-cbod">
 
-                    <h1>Junior Activities</h1>
+                        <h1>Junior Activities</h1>
 
-                    <ul>
-                        <li>Poetry and the spoken word</li>
-                        <li>Voice work & speech exercises concentrating on clarity, diction, audibility and expression
-                        </li>
-                        <li>Drama and devising a character</li>
-                        <li>Monologue and duologue work</li>
-                        <li>Mime and movement</li>
-                        <li>Public speaking % learning how to present to an audience</li>
-                        <li>Characterisation and improvisation</li>
-                        <li>Sight-reading</li>
-                    </ul>
+                        <ul>
+                            <li>Poetry and the spoken word</li>
+                            <li>Voice work & speech exercises concentrating on clarity, diction, audibility and expression
+                            </li>
+                            <li>Drama and devising a character</li>
+                            <li>Monologue and duologue work</li>
+                            <li>Mime and movement</li>
+                            <li>Public speaking % learning how to present to an audience</li>
+                            <li>Characterisation and improvisation</li>
+                            <li>Sight-reading</li>
+                        </ul>
 
+                    </div>
                 </div>
-            </div>
-            <div class="collapse" id="snr_acts">
-                <div class="card card-body" id="act-cbod">
+                <a class="btn kfcoll-but mobile-buts" data-toggle="collapse" href="#snr_acts" role="button" aria-expanded="false"
+                    aria-controls="collapseExample">
+                    Senior Activities
+                </a>
+                <div class="collapse" id="snr_acts">
+                    <div class="card card-body" id="act-cbod">
 
-                    <h1>Senior Activities</h1>
-                    <h6>Theses classes are designed to develop you physically, vocally and imaginatively whilst
-                        encouraging an independent and in-depth approach to the work.</h6>
+                        <h1>Senior Activities</h1>
+                        <h6>Theses classes are designed to develop you physically, vocally and imaginatively whilst
+                            encouraging an independent and in-depth approach to the work.</h6>
 
-                    <ul>
-                        <li>Acting; to perform with fluency, focus and naturalness; using the acting space
-                            appropriately; use of gesture; developing a character.</li>
-                        <li>Further development of vocal work and modulation</li>
-                        <li>Performance/audition technique</li>
-                        <li>Mime and movement</li>
-                        <li>Sight-reading and prose reading</li>
-                        <li>Shakespeare, an introduction to his plays and sonnets</li>
-                        <li>Poetry appreciation and verse speaking</li>
-                        <li>Improvisation and scene building,</li>
-                        <li>Public speaking and presentations</li>
-                    </ul>
+                        <ul>
+                            <li>Acting; to perform with fluency, focus and naturalness; using the acting space
+                                appropriately; use of gesture; developing a character.</li>
+                            <li>Further development of vocal work and modulation</li>
+                            <li>Performance/audition technique</li>
+                            <li>Mime and movement</li>
+                            <li>Sight-reading and prose reading</li>
+                            <li>Shakespeare, an introduction to his plays and sonnets</li>
+                            <li>Poetry appreciation and verse speaking</li>
+                            <li>Improvisation and scene building,</li>
+                            <li>Public speaking and presentations</li>
+                        </ul>
 
 
+                    </div>
                 </div>
             </div>
         </div>
@@ -360,9 +389,8 @@
 
 </body>
 
-
 <!------------------------- Footer -->
-<footer class="page-footer font-small blue pt-4">
+<footer class="page-footer text-white pt-4 pd-0 px-5">
 
     <!-- Footer Links -->
     <div class="container-fluid text-center text-md-left">
@@ -411,11 +439,12 @@
 
                 <ul class="list-unstyled" id="foot-soc">
                     <li>
-                        <a href="https://www.facebook.com/eileenfitzgeraldschoolofspeechanddrama"><i
+                        <a target="_blank" href="https://www.facebook.com/eileenfitzgeraldschoolofspeechanddrama"><i
                                 class="fab fa-facebook-f"></i></a>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/eileenfitzgerald_drama/"><i class="fab fa-instagram"></i></a>
+                        <a target="_blank" href="https://www.instagram.com/eileenfitzgerald_drama/"><i
+                                class="fab fa-instagram"></i></a>
                     </li>
                 </ul>
 
@@ -429,14 +458,13 @@
     <!-- Footer Links -->
 
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2020 Copyright
+    <div class="footer-copyright text-center pb-1">© 2020 Copyright
         <a href="http://www.kailafitz.com/"> kailafitz</a>
     </div>
     <!-- Copyright -->
 
 </footer>
 <!-- Footer -->
-
 
 <!-- Javascript links -->
 <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
