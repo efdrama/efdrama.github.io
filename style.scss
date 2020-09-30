@@ -10,12 +10,6 @@ $lilac: #684FC8;
 $elec-blu: #5CE1E6;
 $blu: #056676;
 
-@font-face {
-    font-family: 'Alaska';
-    src: url(Alaska.otf) format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-     url(Alaska-Regular.ttf) format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
-}
-
 $heading: 'Pompiere', cursive;
 $sub-head: 'Alegreya Sans SC', sans-serif;;
 $body-font: 'Gudea', sans-serif;
@@ -78,6 +72,77 @@ body {
     margin: 7em auto;
     position: relative;
 
+    .rel-img {
+        position: absolute;
+        z-index: 2;
+        opacity: .1;
+    }
+
+    #rel-img1 {
+        width: 10%;
+        top: -22%;
+        left: 8%;
+    }
+
+    #rel-img2 {
+        width: 15%;
+        bottom: -13%;
+        right: 23%;
+    }
+
+    #rel-img3 {
+        width: 5%;
+        top: -12%;
+        left: 80%;    
+    }
+    
+    #rel-img4 {
+        width: 13%;
+        bottom: -13%;
+        right: 41%;
+    }
+
+    #rel-img5 {
+        width: 9%;
+        top: -12%;
+        left: 20%;   
+    }
+
+    #rel-img6 {
+        z-index: 0;
+        width: 21%;
+        top: -2%;
+        left: 72%;    
+    }
+    
+    #rel-img7 {
+        z-index: 0;
+        width: 15%;
+        bottom: -13%;
+        right: 29%;
+    }
+
+    #rel-img8 {
+        z-index: 0;
+        width: 19%;
+        top: -52%;
+        left: 9%;
+    }
+
+    #rel-img9 {
+        z-index: 0;
+        width: 17%;
+        bottom: -50%;
+        left: 3%;  
+    }
+
+    #rel-img10 {
+        z-index: 0;
+        width: 14%;
+        bottom: 34%;
+        left: 45%;  
+    }
+
     .text-cont {
         width: 100%;
         text-align: center;
@@ -86,8 +151,7 @@ body {
 
         h3 {
             font-family: $body-font;
-            font-style: italic;
-            font-size: 2rem;
+            font-size: 1.2rem;
         }
     
         h1 {
@@ -102,13 +166,19 @@ body {
 
         h4 {
             font-family: $sub-head;
-            color: $elec-blu;
-            margin-bottom: 1.5em;
+            color: $whte;
+            margin-bottom: 2em;
+            font-size: 2rem;
         }
 
         h5 {
             font-family: $body-font;
             color: $bg-bl;
+
+            a {
+                color: $elec-blu;
+                text-decoration: underline;
+            }
         }
     }
 
@@ -169,7 +239,6 @@ body {
 
                 &:hover {
                     background-color: $elec-blu;
-                    color: $bg-bl;                
                 }
             }
         }        
@@ -453,12 +522,12 @@ footer {
         margin: 5em 0;
         text-align: center;
 
-        #coll-buts-info{
+        #coll-buts-info {
             display: flex;
             justify-content: space-evenly;
             margin: 3em 0;
 
-            .collapse{
+            .collapse {
                 width:30%;
             }
         }
@@ -483,6 +552,11 @@ footer {
         .kfcoll-but {
             background-color: $lilac;
             color: $whte;
+        }
+
+        .activeButton {
+            background-color: $elec-blu;
+            color: $bg-bl;
         }
 
         .card-body {
@@ -779,20 +853,20 @@ footer {
     }
 }
   
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 800px) {
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 600px) {
     .column {
-      flex: 50%;
-      max-width: 50%;
+        flex: 100%;
+        max-width: 100%;
     }
-  }
-  
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1000px) {
     .column {
-      flex: 100%;
-      max-width: 100%;
-    }
+        flex: 50%;
+        max-width: 50%;
+    }   
 
     .ab-cont {
         .ab-txt {
@@ -804,11 +878,10 @@ footer {
     .home-cont {
 
         .text-cont {
-    
+
             h3 {
                 font-family: $body-font;
-                font-style: italic;
-                font-size: 2rem;
+                font-size: 1rem;
             }
         
             h1 {
@@ -946,7 +1019,7 @@ footer {
             font-size: .9em;
         }
     }
-   
+
     .bigClass-div {
         margin: 3em auto;
 
@@ -967,7 +1040,7 @@ footer {
 
             p {
                 display: none;
-    
+
                 a {
                     border: none;
                     outline: none;
@@ -987,7 +1060,7 @@ footer {
                 display: block;
                 justify-content: space-evenly;
                 margin: 3em 0;
-    
+
                 .collapse{
                     width:95%;
                     margin: 0 auto;
@@ -1036,7 +1109,7 @@ footer {
 
     #bigContDiv {
         width: 100%;
-    
+
         #mid-div {
             width: 80%;
 
@@ -1082,5 +1155,4 @@ footer {
     #gallery-area {
         width: 80%;
     }
-
-  }
+}
