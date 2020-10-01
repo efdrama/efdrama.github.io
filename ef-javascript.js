@@ -126,6 +126,10 @@ $(document).ready(function (){
         $(this).toggleClass("activeButton");
     });
 
+    $('.kf-testcoll').click(function() {
+        $(this).toggleClass("activeTestButton");
+    });
+
 
 });
     
