@@ -21,7 +21,6 @@ $(document).ready(function (){
         $("#ben2 .text-div div h1").css("display", "none");
         $("#ben2 .text-div div p").css("display", "block");
         $("#ben2").css("background-color", "#056676");
-
     }
 
     function benefitHide2() {
@@ -36,7 +35,6 @@ $(document).ready(function (){
         $("#ben3 .text-div div h1").css("display", "none");
         $("#ben3 .text-div div p").css("display", "block");
         $("#ben3").css("background-color", "#056676");
-
     }
 
     function benefitHide3() {
@@ -51,7 +49,6 @@ $(document).ready(function (){
         $("#ben4 .text-div div h1").css("display", "none");
         $("#ben4 .text-div div p").css("display", "block");
         $("#ben4").css("background-color", "#056676");
-
     }
 
     function benefitHide4() { 
@@ -66,7 +63,6 @@ $(document).ready(function (){
         $("#ben5 .text-div div h1").css("display", "none");
         $("#ben5 .text-div div p").css("display", "block");
         $("#ben5").css("background-color", "#056676");
-
     }
 
     function benefitHide5() {
@@ -81,7 +77,6 @@ $(document).ready(function (){
         $("#ben6 .text-div div h1").css("display", "none");
         $("#ben6 .text-div div p").css("display", "block");
         $("#ben6").css("background-color", "#056676");
-
     }
 
     function benefitHide6() {
@@ -92,6 +87,8 @@ $(document).ready(function (){
 
     $("#ben6").hover(benefitShow6,benefitHide6);
 
+    // -------------------------------------------
+
     $('.gallery-pic').click(function() {
         let src = $(this).attr('src');
         let title = $(this).attr('alt');
@@ -99,28 +96,7 @@ $(document).ready(function (){
         $('.modal-title').text(title);
     });
 
-    // function buttonActive() {
-    //     if ($('.kfcoll-but').attr('aria-expanded') == "true") {
-
-    //         $('.kfcoll-but').css("background-color", "#056676");
-    //     }
-    //     else {
-    //         $('.kfcoll-but').css("background-color", "#684FC8");
-    //     }
-    // }
-
-    // function buttonActive() {
-    //     var test = document.getElementsByClassName('kfcoll-but').getAttribute('aria-expanded');
-
-    //     if (test == "true") {
-    //         $('.kfcoll-but').css("background-color", "#056676");
-    //     }
-    //     else {
-    //         $('.kfcoll-but').css("background-color", "#684FC8");
-    //     }
-    // }
-
-    // buttonActive();
+    // -------------------------------------------
 
     $('.kfcoll-but').click(function() {
         $(this).toggleClass("activeButton");
@@ -130,6 +106,34 @@ $(document).ready(function (){
         $(this).toggleClass("activeTestButton");
     });
 
+    // -------------------------------------------
+
+    // $('#title-text').animate({
+    //     width:'0%',
+    //     height:'100%'
+    // },500);
+
+    // $(this.document).load(function() {
+    //     $('#title-text').addClass('scaleClass');
+    // });
+
+    // const title = document.getElementById('#TEST');
+
+    // const tl = new TimelineMax();
+
+    // tl.fromTo(
+    //     title,
+    //     2,
+    //     { height: "0%" },
+    //     { height: "100%", ease: Power2.easeInOut }
+    // ).fromTo(
+    //     title,
+    //     2,
+    //     { width: "0%" },
+    //     { width: "100%", ease: Power2.easeInOut }
+    // );
+
+    // -------------------------------------------
 
 });
     

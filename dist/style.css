@@ -87,6 +87,7 @@ body {
   opacity: 0.16;
 }
 .home-cont #rel-img4 {
+  position: absolute;
   z-index: 0;
   width: 12%;
   bottom: -13%;
@@ -150,6 +151,10 @@ body {
   letter-spacing: 0.1em;
   color: #5CE1E6;
   font-size: 7rem;
+}
+.home-cont .scaleClass {
+  transition: ease 3s transform;
+  transform: scale(1.5);
 }
 .home-cont #intro-text h4 {
   font-family: "Alegreya Sans SC", sans-serif;
@@ -380,6 +385,7 @@ footer #foot-soc li a i:hover {
 }
 
 #benefits {
+  width: 99%;
   display: grid;
   align-items: center;
   grid-template-columns: repeat(2, 1fr);

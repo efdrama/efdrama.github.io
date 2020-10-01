@@ -115,6 +115,7 @@ body {
     }
     
     #rel-img4 {
+        position: absolute;
         z-index: 0;
         width: 12%;
         bottom: -13%;
@@ -187,6 +188,11 @@ body {
             color: $elec-blu;
             font-size: 7rem
         }
+    }
+
+    .scaleClass {
+        transition: ease 3s transform;
+        transform: scale(1.5);
     }
 
     #intro-text {
@@ -484,6 +490,7 @@ footer {
 }
 
 #benefits {
+    width: 99%;
     display: grid;
     align-items: center;
     grid-template-columns: repeat(2, 1fr);
