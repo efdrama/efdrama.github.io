@@ -62,10 +62,8 @@ body {
   margin: 7em auto;
   position: relative;
 }
-.home-cont .rel-img {
-  position: absolute;
-}
 .home-cont #rel-img1 {
+  position: absolute;
   z-index: 2;
   width: 10%;
   top: -22%;
@@ -73,6 +71,7 @@ body {
   opacity: 0.1;
 }
 .home-cont #rel-img2 {
+  position: absolute;
   z-index: 2;
   width: 15%;
   bottom: -13%;
@@ -80,28 +79,15 @@ body {
   opacity: 0.05;
 }
 .home-cont #rel-img3 {
+  position: absolute;
   z-index: 2;
   width: 16%;
   top: -12%;
   left: 80%;
   opacity: 0.16;
 }
-.home-cont #rel-img4 {
-  position: absolute;
-  z-index: 0;
-  width: 12%;
-  bottom: -13%;
-  right: 20%;
-  opacity: 0.19;
-}
-.home-cont #rel-img5 {
-  z-index: 2;
-  width: 9%;
-  top: -12%;
-  left: 20%;
-  opacity: 0.1;
-}
 .home-cont #rel-img6 {
+  position: absolute;
   z-index: 0;
   width: 21%;
   top: -2%;
@@ -109,6 +95,7 @@ body {
   opacity: 0.05;
 }
 .home-cont #rel-img7 {
+  position: absolute;
   z-index: 0;
   width: 15%;
   bottom: -13%;
@@ -116,6 +103,7 @@ body {
   opacity: 0.1;
 }
 .home-cont #rel-img8 {
+  position: absolute;
   z-index: 0;
   width: 14%;
   top: -52%;
@@ -123,6 +111,7 @@ body {
   opacity: 0.13;
 }
 .home-cont #rel-img9 {
+  position: absolute;
   z-index: 0;
   width: 17%;
   bottom: -50%;
@@ -130,6 +119,7 @@ body {
   opacity: 0.13;
 }
 .home-cont #rel-img10 {
+  position: absolute;
   z-index: 0;
   width: 14%;
   bottom: 34%;
@@ -224,8 +214,25 @@ body {
 }
 
 .light-cont {
+  position: relative;
   background-color: #684FC8;
-  z-index: 1;
+  z-index: 2;
+}
+.light-cont #rel-img4 {
+  position: absolute;
+  z-index: 0;
+  width: 12%;
+  bottom: -13%;
+  right: 20%;
+  opacity: 0.19;
+}
+.light-cont #rel-img5 {
+  position: absolute;
+  z-index: 2;
+  width: 9%;
+  top: -12%;
+  left: 20%;
+  opacity: 0.1;
 }
 
 footer {
