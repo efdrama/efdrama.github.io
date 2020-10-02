@@ -337,7 +337,7 @@ footer #foot-soc li a i:hover {
   border: #171717;
 }
 #coll-div .card .card-header {
-  background-color: #056676;
+  background-color: #2B363B;
   font-family: "Pompiere", cursive;
 }
 #coll-div .card .card-header .activeTestButton {
@@ -355,10 +355,10 @@ footer #foot-soc li a i:hover {
 #coll-div .card .card-header button:hover {
   text-decoration: none;
   background-color: #5CE1E6;
-  color: #056676;
+  color: #2B363B;
 }
 #coll-div .card-body {
-  background-color: #056676;
+  background-color: #2B363B;
   color: #5CE1E6;
 }
 
@@ -489,7 +489,7 @@ footer #foot-soc li a i:hover {
 }
 .bigClass-div .coll-buts .kfcoll-but:hover {
   transform: rotate(5deg);
-  background-color: #056676;
+  background-color: #2B363B;
   color: #ffffff;
 }
 .bigClass-div .coll-buts .activeButton {
@@ -537,7 +537,7 @@ footer #foot-soc li a i:hover {
 }
 .bigClass-div .jnr-tbl .junior {
   width: 90%;
-  background-color: #056676;
+  background-color: #2B363B;
   border-radius: 14px;
   margin: 3em auto;
   border-collapse: separate;
@@ -609,7 +609,7 @@ footer #foot-soc li a i:hover {
 #big-div .link-div {
   width: 50%;
   border-radius: 14px;
-  background-color: #056676;
+  background-color: #2B363B;
   margin: 3em auto;
   padding: 2em;
   box-shadow: -1px 0px 10px -2px #616161;

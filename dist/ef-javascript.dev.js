@@ -4,7 +4,7 @@ $(document).ready(function () {
   function benefitShow1() {
     $("#ben1 .text-div div h1").css("display", "none");
     $("#ben1 .text-div div p").css("display", "block");
-    $("#ben1").css("background-color", "#056676");
+    $("#ben1").css("background-color", " #2B363B");
   }
 
   function benefitHide1() {
@@ -18,7 +18,7 @@ $(document).ready(function () {
   function benefitShow2() {
     $("#ben2 .text-div div h1").css("display", "none");
     $("#ben2 .text-div div p").css("display", "block");
-    $("#ben2").css("background-color", "#056676");
+    $("#ben2").css("background-color", " #2B363B");
   }
 
   function benefitHide2() {
@@ -32,7 +32,7 @@ $(document).ready(function () {
   function benefitShow3() {
     $("#ben3 .text-div div h1").css("display", "none");
     $("#ben3 .text-div div p").css("display", "block");
-    $("#ben3").css("background-color", "#056676");
+    $("#ben3").css("background-color", " #2B363B");
   }
 
   function benefitHide3() {
@@ -46,7 +46,7 @@ $(document).ready(function () {
   function benefitShow4() {
     $("#ben4 .text-div div h1").css("display", "none");
     $("#ben4 .text-div div p").css("display", "block");
-    $("#ben4").css("background-color", "#056676");
+    $("#ben4").css("background-color", " #2B363B");
   }
 
   function benefitHide4() {
@@ -60,7 +60,7 @@ $(document).ready(function () {
   function benefitShow5() {
     $("#ben5 .text-div div h1").css("display", "none");
     $("#ben5 .text-div div p").css("display", "block");
-    $("#ben5").css("background-color", "#056676");
+    $("#ben5").css("background-color", " #2B363B");
   }
 
   function benefitHide5() {
@@ -74,7 +74,7 @@ $(document).ready(function () {
   function benefitShow6() {
     $("#ben6 .text-div div h1").css("display", "none");
     $("#ben6 .text-div div p").css("display", "block");
-    $("#ben6").css("background-color", "#056676");
+    $("#ben6").css("background-color", " #2B363B");
   }
 
   function benefitHide6() {
