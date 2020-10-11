@@ -127,7 +127,6 @@ body {
   opacity: 0.11;
 }
 .home-cont .text-cont {
-  width: 100%;
   text-align: center;
   z-index: 1;
   overflow: hidden;
@@ -762,6 +761,9 @@ footer #foot-soc li a i:hover {
     color: #5CE1E6;
     font-size: 4rem;
   }
+  .home-cont #intro-text {
+    width: 100%;
+  }
   .home-cont .card-cont .card {
     width: 70vw;
   }
@@ -789,7 +791,7 @@ footer #foot-soc li a i:hover {
     font-size: 1.5em;
   }
   #profiles .ab-txt .vl {
-    border-left: 2.5px solid #5CE1E6;
+    border-left: 2px solid #5CE1E6;
     height: 2em;
   }
   #profiles .ab-txt h5 {
@@ -922,10 +924,10 @@ footer #foot-soc li a i:hover {
     width: 80%;
   }
   #bigContDiv #mid-div .contact i {
-    font-size: 1.2em;
+    font-size: 1em;
   }
   #bigContDiv #mid-div .contact h4 {
-    font-size: 1.2em;
+    font-size: 1em;
   }
 
   #location-div {
