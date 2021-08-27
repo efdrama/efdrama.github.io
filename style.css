@@ -1,60 +1,82 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
   background-color: #171717;
 }
 
+.hr {
+  background-color: white;
+  width: 50vw;
+  margin: 0 auto;
+}
+
 [data-scroll] {
+  -webkit-transition: -webkit-transform 1.1s;
+  transition: -webkit-transform 1.1s;
   transition: transform 1.1s;
+  transition: transform 1.1s, -webkit-transform 1.1s;
 }
 
-[data-scroll=in] {
+[data-scroll="in"] {
   opacity: 0.9;
-  transform: translateY(0);
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
 }
 
-[data-scroll=out] {
+[data-scroll="out"] {
   opacity: 0.5;
-  transform: translateY(4em);
+  -webkit-transform: translateY(4em);
+          transform: translateY(4em);
 }
 
 .navbar {
   width: 100%;
-  flex-flow: wrap;
-  border-bottom: 10px solid #684FC8;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  border-bottom: 5px solid #684fc8;
 }
+
 .navbar .navbar-brand {
   width: 100%;
   text-align: center;
   padding: 1em 0 2em 0;
 }
+
 .navbar .navbar-toggler {
-  border-color: #684FC8;
-  background-color: #684FC8;
+  border-color: #684fc8;
+  background-color: #684fc8;
 }
+
 .navbar .navbar-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
+
 .navbar #navbarNav {
   width: 100%;
 }
+
 .navbar #navbarNav .navbar-nav {
   width: 100%;
   text-align: center;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
+
 .navbar #navbarNav .navbar-nav a {
   color: #ffffff;
   font-family: "Alegreya Sans SC", sans-serif;
-  font-size: 1em;
+  font-size: 1.1em;
   padding: 0 1em;
 }
+
 .navbar #navbarNav .navbar-nav a:hover {
-  color: #684FC8;
+  text-decoration: underline;
 }
 
 .home-cont {
@@ -62,6 +84,7 @@ body {
   margin: 7em auto;
   position: relative;
 }
+
 .home-cont #rel-img1 {
   position: absolute;
   z-index: 2;
@@ -70,6 +93,7 @@ body {
   left: 8%;
   opacity: 0.1;
 }
+
 .home-cont #rel-img2 {
   position: absolute;
   z-index: 2;
@@ -78,6 +102,7 @@ body {
   right: 43%;
   opacity: 0.05;
 }
+
 .home-cont #rel-img3 {
   position: absolute;
   z-index: 2;
@@ -86,6 +111,7 @@ body {
   left: 80%;
   opacity: 0.16;
 }
+
 .home-cont #rel-img6 {
   position: absolute;
   z-index: 0;
@@ -94,6 +120,7 @@ body {
   left: 72%;
   opacity: 0.05;
 }
+
 .home-cont #rel-img7 {
   position: absolute;
   z-index: 0;
@@ -102,6 +129,7 @@ body {
   right: 29%;
   opacity: 0.1;
 }
+
 .home-cont #rel-img8 {
   position: absolute;
   z-index: 0;
@@ -110,6 +138,7 @@ body {
   left: 9%;
   opacity: 0.13;
 }
+
 .home-cont #rel-img9 {
   position: absolute;
   z-index: 0;
@@ -118,6 +147,7 @@ body {
   left: 3%;
   opacity: 0.13;
 }
+
 .home-cont #rel-img10 {
   position: absolute;
   z-index: 0;
@@ -126,65 +156,83 @@ body {
   left: 45%;
   opacity: 0.11;
 }
+
 .home-cont .text-cont {
   text-align: center;
   z-index: 1;
   overflow: hidden;
 }
+
 .home-cont .text-cont h3 {
   font-family: "Gudea", sans-serif;
   font-size: 1.2rem;
 }
+
 .home-cont .text-cont h1 {
   font-family: "Pompiere", cursive;
   letter-spacing: 0.1em;
-  color: #5CE1E6;
+  color: #5ce1e6;
   font-size: 7rem;
 }
+
 .home-cont .scaleClass {
+  -webkit-transition: ease 3s transform;
   transition: ease 3s transform;
-  transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
+
 .home-cont #intro-text h4 {
   font-family: "Alegreya Sans SC", sans-serif;
   color: #ffffff;
-  margin-bottom: 2em;
+  margin-bottom: 1.5em;
   font-size: 2rem;
 }
+
 .home-cont #intro-text h5 {
   font-family: "Gudea", sans-serif;
   color: #171717;
 }
+
 .home-cont #intro-text h5 a {
-  color: #5CE1E6;
+  color: #5ce1e6;
   text-decoration: underline;
 }
+
 .home-cont .card-cont {
   width: 95%;
-  align-content: center;
-  justify-content: space-evenly;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
+
 .home-cont .card-cont .card {
   border: none;
   width: 25vw;
   position: relative;
   background-color: transparent;
 }
+
 .home-cont .card-cont .card .overlay {
   position: absolute;
   bottom: 100%;
   left: 0;
   right: 0;
-  background-color: #684FC8;
+  background-color: #684fc8;
   overflow: hidden;
   width: 100%;
   height: 0;
+  -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
 }
+
 .home-cont .card-cont .card:hover .overlay {
   bottom: 0;
   height: 100%;
 }
+
 .home-cont .card-cont .card .text {
   color: #ffffff;
   font-size: 20px;
@@ -192,31 +240,38 @@ body {
   overflow: hidden;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+
 .home-cont .card-cont .card a {
   font-family: "Gudea", sans-serif;
 }
+
 .home-cont .card-cont .card img {
-  filter: grayscale(100);
+  -webkit-filter: grayscale(100);
+          filter: grayscale(100);
   width: 100%;
   height: auto;
 }
+
 .home-cont .card-cont .card .btn {
   font-family: "Alegreya Sans SC", sans-serif;
   letter-spacing: 0.1em;
   outline: none;
 }
+
 .home-cont .card-cont .card .btn:hover {
-  background-color: #5CE1E6;
+  background-color: #5ce1e6;
 }
 
 .light-cont {
   position: relative;
-  background-color: #684FC8;
+  background-color: #684fc8;
   z-index: 2;
 }
+
 .light-cont #rel-img4 {
   position: absolute;
   z-index: 0;
@@ -225,6 +280,7 @@ body {
   right: 20%;
   opacity: 0.19;
 }
+
 .light-cont #rel-img5 {
   position: absolute;
   z-index: 2;
@@ -237,36 +293,47 @@ body {
 footer {
   width: 100%;
   padding: 0;
-  border-top: 10px solid #684FC8;
+  border-top: 5px solid #684fc8;
 }
+
 footer h5 {
   font-family: "Alegreya Sans SC", sans-serif;
   margin-bottom: 1em;
   font-size: 1.4em;
 }
+
 footer img {
   width: 20%;
 }
+
 footer a {
-  color: #5CE1E6;
+  color: #5ce1e6;
   font-family: "Alegreya Sans SC", sans-serif;
 }
+
 footer a:hover {
-  color: #684FC8;
+  color: #684fc8;
 }
+
 footer #foot-soc {
-  align-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
+
 footer #foot-soc li {
   margin: 0 1em;
 }
+
 footer #foot-soc li a {
-  color: #5CE1E6;
+  color: #5ce1e6;
   font-size: 1.5em;
 }
+
 footer #foot-soc li a i:hover {
-  color: #684FC8;
+  color: #684fc8;
 }
 
 .head-img {
@@ -274,55 +341,71 @@ footer #foot-soc li a i:hover {
   position: relative;
   text-align: center;
 }
+
 .head-img h1 {
   font-family: "Pompiere", cursive;
   margin: 1em 0;
-  color: #5CE1E6;
+  color: #5ce1e6;
   font-size: 4em;
 }
 
 #profiles {
   display: block;
 }
+
 #profiles .ab-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 85%;
   margin: 0 auto;
   text-align: center;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: auto;
   color: #ffffff;
-  border-top: 5px solid #5CE1E6;
+  border-top: 5px solid #5ce1e6;
 }
+
 #profiles .ab-cont:nth-child(2) {
-  border-bottom: 5px solid #5CE1E6;
+  border-bottom: 5px solid #5ce1e6;
 }
+
 #profiles .ab-cont .purp {
-  background-color: #684FC8;
+  background-color: #684fc8;
   padding: 3em;
 }
+
 #profiles .ab-cont .ab-txt {
   font-family: "Gudea", sans-serif;
   width: 100%;
 }
+
 #profiles .ab-cont .ab-txt .vl {
-  border-left: 4px solid #5CE1E6;
+  border-left: 4px solid #5ce1e6;
   height: 3em;
   margin-bottom: 0.5em;
 }
+
 #profiles .ab-cont .ab-txt h1 {
   font-family: "Alegreya Sans SC", sans-serif;
   color: #ffffff;
   text-align: left;
   margin: 0;
 }
+
 #profiles .ab-cont .ab-txt h5 {
   text-align: left;
 }
+
 #profiles .ab-cont .ab-img {
   width: 100%;
 }
+
 #profiles .ab-cont .ab-img .profile-images {
   width: 45%;
   margin: 0 auto;
@@ -332,120 +415,157 @@ footer #foot-soc li a i:hover {
   width: 70%;
   margin: 4em auto;
 }
+
 #coll-div .card {
   border: #171717;
 }
+
 #coll-div .card .card-header {
-  background-color: #2B363B;
+  background-color: #2b363b;
   font-family: "Pompiere", cursive;
 }
+
 #coll-div .card .card-header .activeTestButton {
-  background-color: #5CE1E6;
+  background-color: #5ce1e6;
   color: #171717;
 }
+
 #coll-div .card .card-header button {
   outline: none !important;
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
   border: none;
-  color: #5CE1E6;
+  color: #5ce1e6;
   text-decoration: none;
   font-size: 0.8em;
 }
+
 #coll-div .card .card-header button:hover {
   text-decoration: none;
-  background-color: #5CE1E6;
-  color: #2B363B;
+  background-color: #5ce1e6;
+  color: #2b363b;
 }
+
 #coll-div .card-body {
-  background-color: #2B363B;
-  color: #5CE1E6;
+  background-color: #2b363b;
+  color: #5ce1e6;
 }
 
 #what {
   width: 70%;
-  margin: 14em auto;
+  margin: 10em auto;
   text-align: center;
 }
+
 #what h1 {
   font-family: "Alegreya Sans SC", sans-serif;
-  color: #5CE1E6;
+  color: #5ce1e6;
   font-size: 1.9em;
   margin-bottom: 1.5em;
 }
+
 #what p {
   font-family: "Gudea", sans-serif;
   color: #ffffff;
   font-size: 1.3em;
 }
 
-#bene-header {
+#benefits {
+  margin: 10em auto;
+}
+
+#benefits #bene-header {
   width: 50%;
   margin: 0 auto;
 }
-#bene-header h1 {
+
+#benefits #bene-header h1 {
   text-align: center;
   font-size: 1.9em;
-  color: #5CE1E6;
+  color: #5ce1e6;
   font-family: "Alegreya Sans SC", sans-serif;
   margin-bottom: 1.5em;
 }
 
-#benefits {
+#benefits #benefits-container {
   width: 99%;
+  display: -ms-grid;
   display: grid;
-  align-items: center;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr) minmax(3em, 1fr);
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-rows: (1fr)[2] minmax(3em, 1fr);
+      grid-template-rows: repeat(2, 1fr) minmax(3em, 1fr);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-#benefits .ben {
+
+#benefits #benefits-container .ben {
   text-align: center;
   background-color: #171717;
   height: 30vh;
+  -webkit-transition: ease 0.8s transform;
   transition: ease 0.8s transform;
 }
-#benefits .ben:hover {
-  transform: scale(1.02);
+
+#benefits #benefits-container .ben:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
 }
-#benefits .ben .text-div {
+
+#benefits #benefits-container .ben .text-div {
   height: 100%;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: auto;
-  color: #5CE1E6;
+  color: #5ce1e6;
 }
-#benefits .ben .text-div div {
+
+#benefits #benefits-container .ben .text-div div {
   width: 90%;
 }
-#benefits .ben .text-div div h1 {
+
+#benefits #benefits-container .ben .text-div div h1 {
   width: 80%;
   font-family: "Pompiere", cursive;
   margin: 0 auto;
   letter-spacing: 0.2em;
   display: block;
 }
-#benefits .ben .text-div div p {
+
+#benefits #benefits-container .ben .text-div div p {
   width: 80%;
   font-family: "Alegreya Sans SC", sans-serif;
   font-size: 1.6em;
   margin: 0 auto;
   display: none;
-  color: #5CE1E6;
+  color: #5ce1e6;
 }
 
 .bigClass-div {
   width: 100%;
-  margin: 8em auto;
+  margin: 10em auto;
 }
+
 .bigClass-div h1 {
   text-align: center;
   font-size: 1.9em;
-  color: #5CE1E6;
+  color: #5ce1e6;
   font-family: "Alegreya Sans SC", sans-serif;
   margin-bottom: 1.5em;
 }
+
 .bigClass-div h5 {
   width: 85%;
   text-align: center;
@@ -454,131 +574,175 @@ footer #foot-soc li a i:hover {
   font-family: "Gudea", sans-serif;
   font-size: 1.3em;
 }
+
 .bigClass-div .coll-buts {
   width: 100%;
-  margin: 5em 0;
+  padding: 3em 0;
   text-align: center;
 }
+
 .bigClass-div .coll-buts #coll-buts-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-evenly;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   margin: 3em 0;
 }
+
 .bigClass-div .coll-buts #coll-buts-info .collapse {
   width: 30%;
 }
+
 .bigClass-div .coll-buts p {
   width: 80%;
   margin: 0 auto;
 }
+
 .bigClass-div .coll-buts p a {
   border: none;
   outline: none;
-  box-shadow: -1px 0px 10px -2px #616161;
+  -webkit-box-shadow: -1px 0px 10px -2px #616161;
+          box-shadow: -1px 0px 10px -2px #616161;
   text-decoration: underline;
   margin: 0 1em;
 }
+
 .bigClass-div .coll-buts .mobile-buts {
   display: none;
 }
+
 .bigClass-div .coll-buts .kfcoll-but {
-  background-color: #684FC8;
+  background-color: #684fc8;
   color: #ffffff;
+  -webkit-transition: ease 0.4s transform;
   transition: ease 0.4s transform;
 }
+
 .bigClass-div .coll-buts .kfcoll-but:hover {
-  transform: rotate(5deg);
-  background-color: #2B363B;
+  -webkit-transform: rotate(5deg);
+          transform: rotate(5deg);
+  background-color: #2b363b;
   color: #ffffff;
 }
+
 .bigClass-div .coll-buts .activeButton {
-  background-color: #5CE1E6;
+  background-color: #5ce1e6;
   color: #171717;
 }
+
 .bigClass-div .coll-buts .card-body {
   background-color: #171717;
   margin: 1em 0;
 }
+
 .bigClass-div .coll-buts #act-cbod h1 {
   margin-bottom: 0.5em;
 }
+
 .bigClass-div .coll-buts #act-cbod h6 {
   color: #ffffff;
   font-family: "Alegreya Sans SC", sans-serif;
   font-size: 1.3em;
   margin-bottom: 3em;
 }
+
 .bigClass-div .coll-buts #act-cbod ul li {
   color: #ffffff;
   margin: 0.3em 0;
   list-style-type: none;
 }
+
 .bigClass-div #yearly {
   width: 70%;
-  margin: 5em auto;
+  padding-top: 3em;
+  margin: auto;
   text-align: center;
 }
+
 .bigClass-div #yearly p {
   color: #ffffff;
 }
+
 .bigClass-div #yearly .event {
   width: 100%;
   text-align: center;
   margin: 3em 0;
 }
+
 .bigClass-div #yearly .event h2 {
-  color: #5CE1E6;
+  color: #5ce1e6;
   font-size: 1.3em;
   font-weight: 400;
 }
+
 .bigClass-div #yearly .event p {
   color: #ffffff;
 }
+
 .bigClass-div .jnr-tbl .junior {
   width: 90%;
-  background-color: #2B363B;
+  background-color: #2b363b;
   border-radius: 14px;
   margin: 3em auto;
   border-collapse: separate;
   border-spacing: 1em;
 }
+
 .bigClass-div .jnr-tbl .junior th {
   text-align: center;
   font-family: "Alegreya Sans SC", sans-serif;
-  color: #5CE1E6;
+  color: #5ce1e6;
   font-size: 1.3em;
   font-weight: 400;
 }
+
 .bigClass-div .jnr-tbl .junior td {
   text-align: center;
   font-family: "Gudea", sans-serif;
-  color: #5CE1E6;
+  color: #5ce1e6;
   font-size: 1em;
 }
+
+.bigClass-div #PublicSpeaking {
+  padding: 6em 0;
+}
+
+.bigClass-div #PublicSpeaking .text-red {
+  color: #fa6969;
+}
+
 .bigClass-div #cov {
-  background-color: #CF3838;
+  background-color: #cf3838;
   width: 50%;
   margin: 2em auto;
   border-radius: 20px;
   padding: 2em;
   text-align: center;
 }
+
 .bigClass-div #cov p {
   font-size: 1.7em;
   color: #ffffff;
   font-family: "Alegreya Sans SC", sans-serif;
   margin: 0;
 }
+
 .bigClass-div .img-div {
   width: 100%;
   position: relative;
 }
+
 .bigClass-div .img-div img {
-  object-fit: contain;
-  object-position: center;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
   width: 100%;
   opacity: 0.5;
 }
+
 .bigClass-div .img-div .img-txt {
   text-align: center;
   position: absolute;
@@ -586,6 +750,7 @@ footer #foot-soc li a i:hover {
   top: 30%;
   left: 45%;
 }
+
 .bigClass-div .img-div .img-txt h1 {
   color: #ffffff;
   font-family: "Pompiere", cursive;
@@ -597,44 +762,54 @@ footer #foot-soc li a i:hover {
   margin: 2em 0;
   padding: 2em 0;
 }
+
 #big-div h1 {
   font-family: "Pompiere", cursive;
   font-size: 3.5em;
   margin: 0 auto;
   margin-bottom: 1.5em;
-  color: #5CE1E6;
+  color: #5ce1e6;
   text-align: center;
 }
+
 #big-div .link-div {
   width: 50%;
   border-radius: 14px;
-  background-color: #2B363B;
+  background-color: #2b363b;
   margin: 3em auto;
   padding: 2em;
-  box-shadow: -1px 0px 10px -2px #616161;
+  -webkit-box-shadow: -1px 0px 10px -2px #616161;
+          box-shadow: -1px 0px 10px -2px #616161;
 }
+
 #big-div .link-div h2 {
   font-family: "Alegreya Sans SC", sans-serif;
   font-size: 1.5em;
   margin: 0 auto;
   margin-bottom: 2em;
-  color: #5CE1E6;
+  color: #5ce1e6;
   text-align: center;
 }
+
 #big-div .link-div ul {
   width: 50%;
   margin: 0 auto;
 }
+
 #big-div .link-div ul li {
   text-align: center;
   color: #ffffff;
   margin: 1em 0;
   list-style-type: none;
+  -webkit-transition: ease 0.6s transform;
   transition: ease 0.6s transform;
 }
+
 #big-div .link-div ul li:hover {
-  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
+
 #big-div .link-div ul li a {
   color: #ffffff;
   font-size: 1.3em;
@@ -644,26 +819,35 @@ footer #foot-soc li a i:hover {
 #bigContDiv {
   width: 100%;
 }
+
 #bigContDiv #mid-div {
   width: 40%;
   margin: 6em auto;
 }
+
 #bigContDiv #mid-div h1 {
   font-family: "Pompiere", cursive;
-  color: #5CE1E6;
+  color: #5ce1e6;
   margin-bottom: 2em;
   text-align: center;
 }
+
 #bigContDiv #mid-div .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 3em 0;
 }
+
 #bigContDiv #mid-div .contact i {
   color: #ffffff;
   margin-right: 1em;
   font-size: 1.8em;
 }
+
 #bigContDiv #mid-div .contact h4 {
   font-family: "Gudea", sans-serif;
   color: #ffffff;
@@ -675,23 +859,30 @@ footer #foot-soc li a i:hover {
   display: block;
   margin: 5em 0;
 }
+
 #location-div h1 {
   font-family: "Pompiere", cursive;
-  color: #5CE1E6;
+  color: #5ce1e6;
   margin-bottom: 2em;
   text-align: center;
 }
+
 #location-div #frame-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-evenly;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 #gallery-title {
   width: 70%;
   margin: 5em auto;
 }
+
 #gallery-title h1 {
-  color: #5CE1E6;
+  color: #5ce1e6;
   text-align: center;
   font-family: "Pompiere", cursive;
 }
@@ -701,34 +892,48 @@ footer #foot-soc li a i:hover {
   margin: 3em auto;
   /* Create four equal columns that sits next to each other */
 }
+
 #gallery-area .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   padding: 0 4px;
 }
+
 #gallery-area .column {
-  flex: 25%;
+  -webkit-box-flex: 25%;
+      -ms-flex: 25%;
+          flex: 25%;
   max-width: 25%;
   padding: 0 4px;
 }
+
 #gallery-area .column img {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
   cursor: pointer;
+  -webkit-transition: ease 1s transform;
   transition: ease 1s transform;
 }
+
 #gallery-area .column img:hover {
-  transform: scale(1.1);
-  box-shadow: 0px 0px 10px 4px #0000006b;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-box-shadow: 0px 0px 10px 4px #0000006b;
+          box-shadow: 0px 0px 10px 4px #0000006b;
 }
 
 .modal .modal-body img {
   width: 100%;
 }
+
 .modal .modal-content {
   background-color: #ffffff;
 }
+
 .modal .modal-content .modal-header h5 {
   font-family: "Alegreya Sans SC", sans-serif;
 }
@@ -736,21 +941,24 @@ footer #foot-soc li a i:hover {
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 600px) {
   .column {
-    flex: 100%;
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
     max-width: 100%;
   }
 }
+
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 1000px) {
   .column {
-    flex: 50%;
+    -webkit-box-flex: 50%;
+        -ms-flex: 50%;
+            flex: 50%;
     max-width: 50%;
   }
-
   .ab-cont .ab-txt {
     width: 50%;
   }
-
   .home-cont .text-cont h3 {
     font-family: "Gudea", sans-serif;
     font-size: 1rem;
@@ -758,7 +966,7 @@ footer #foot-soc li a i:hover {
   .home-cont .text-cont h1 {
     font-family: "Pompiere", cursive;
     letter-spacing: 0.1em;
-    color: #5CE1E6;
+    color: #5ce1e6;
     font-size: 4rem;
   }
   .home-cont #intro-text {
@@ -767,21 +975,20 @@ footer #foot-soc li a i:hover {
   .home-cont .card-cont .card {
     width: 70vw;
   }
-
   footer {
     padding: 0 2em;
   }
   footer #foot-soc {
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   footer img {
     width: 40%;
   }
-
   .head-img h1 {
     font-size: 2em;
   }
-
   #profiles .ab-cont {
     display: block;
     text-align: center;
@@ -791,7 +998,7 @@ footer #foot-soc li a i:hover {
     font-size: 1.5em;
   }
   #profiles .ab-txt .vl {
-    border-left: 2px solid #5CE1E6;
+    border-left: 2px solid #5ce1e6;
     height: 2em;
   }
   #profiles .ab-txt h5 {
@@ -804,7 +1011,6 @@ footer #foot-soc li a i:hover {
   #profiles .ab-img img {
     width: 50%;
   }
-
   .card .card-header h2 {
     font-size: 1.2rem;
   }
@@ -812,7 +1018,6 @@ footer #foot-soc li a i:hover {
     text-align: justify;
     font-size: 0.65em;
   }
-
   #big-div h1 {
     font-family: "Pompiere", cursive;
     font-size: 2.5em;
@@ -826,7 +1031,6 @@ footer #foot-soc li a i:hover {
   #big-div .link-div ul li a {
     font-size: 0.9em;
   }
-
   #what {
     margin: 5em auto;
   }
@@ -836,14 +1040,12 @@ footer #foot-soc li a i:hover {
   #what p {
     font-size: 0.9em;
   }
-
   #bene-header {
     width: 70%;
   }
   #bene-header h1 {
     font-size: 1.4em;
   }
-
   #benefits .ben .text-div div h1 {
     font-size: 1.4em;
     text-decoration: underline;
@@ -851,7 +1053,6 @@ footer #foot-soc li a i:hover {
   #benefits .ben .text-div div p {
     font-size: 0.9em;
   }
-
   .bigClass-div {
     margin: 3em auto;
   }
@@ -871,7 +1072,8 @@ footer #foot-soc li a i:hover {
   .bigClass-div .coll-buts p a {
     border: none;
     outline: none;
-    box-shadow: -1px 0px 10px -2px #616161;
+    -webkit-box-shadow: -1px 0px 10px -2px #616161;
+            box-shadow: -1px 0px 10px -2px #616161;
     text-decoration: underline;
     margin: 0 1em;
   }
@@ -882,7 +1084,9 @@ footer #foot-soc li a i:hover {
   }
   .bigClass-div .coll-buts #coll-buts-info {
     display: block;
-    justify-content: space-evenly;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
     margin: 3em 0;
   }
   .bigClass-div .coll-buts #coll-buts-info .collapse {
@@ -916,7 +1120,6 @@ footer #foot-soc li a i:hover {
   .bigClass-div #cov p {
     font-size: 1em;
   }
-
   #bigContDiv {
     width: 100%;
   }
@@ -929,7 +1132,6 @@ footer #foot-soc li a i:hover {
   #bigContDiv #mid-div .contact h4 {
     font-size: 1em;
   }
-
   #location-div {
     padding: 0;
   }
@@ -946,14 +1148,11 @@ footer #foot-soc li a i:hover {
     width: 20em;
     height: 18em;
   }
-
   #gallery-title h1 {
     font-size: 1.5em;
   }
-
   #gallery-area {
     width: 80%;
   }
 }
-
 /*# sourceMappingURL=style.css.map */
